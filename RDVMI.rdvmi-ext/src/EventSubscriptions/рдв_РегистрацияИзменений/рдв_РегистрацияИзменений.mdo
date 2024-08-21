@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd340489-d969-4784-8eec-9e27a7c707ca">
+  <name>рдв_РегистрацияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рдв регистрация изменений</value>
+  </synonym>
+  <source>
+    <types>ChartOfCalculationTypesObject</types>
+    <types>ChartOfAccountsObject</types>
+    <types>ChartOfCharacteristicTypesObject</types>
+    <types>CatalogObject</types>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.рдв_РегистрацияИзменений.рдв_РегистрацияИзмененийПриЗаписи</handler>
+</mdclass:EventSubscription>

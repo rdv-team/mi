@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1dfcc64c-2cc9-42bf-9d14-80e4723d6815">
+  <producedTypes>
+    <refType typeId="8936c93b-aaf1-417e-a9dc-370714f57e75" valueTypeId="afc78b4c-db22-4c49-8b29-6eacffc71ab9"/>
+    <listType typeId="749153e1-79e5-44e7-bfd2-f1687856e86e" valueTypeId="a9a65011-3c18-4353-b9d0-82315a62066c"/>
+    <managerType typeId="f79ccc27-7bb3-4e5b-b24e-379a20971518" valueTypeId="27f094dd-0b20-41c3-b659-24c2e9b5dad8"/>
+  </producedTypes>
+  <name>рдв_ФорматыОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы обмена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="791d3745-4389-4f1a-9266-e0565e3a29b5">
+    <name>json</name>
+    <synonym>
+      <key>ru</key>
+      <value>Json</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

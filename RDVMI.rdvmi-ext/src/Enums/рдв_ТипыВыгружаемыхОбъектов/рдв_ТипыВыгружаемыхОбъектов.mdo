@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a04bf8e-1023-4271-9fd6-ad06cdaebd6e">
+  <producedTypes>
+    <refType typeId="1aa5fffe-bd8e-4583-ab10-39c5ac041c00" valueTypeId="84c54d9d-e98b-42dc-b704-716b9d057719"/>
+    <listType typeId="07a07d7d-b86f-4f3a-befa-efe1fa755352" valueTypeId="1870afb9-40b9-442a-afe3-19d17127e139"/>
+    <managerType typeId="170e7d43-c721-4ffa-bb5b-eeea18779756" valueTypeId="d0215e94-71b8-4071-aee7-1443c045870a"/>
+  </producedTypes>
+  <name>рдв_ТипыВыгружаемыхОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выгружаемых объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8a4e4e76-c9b0-4133-95bd-480b4e14f6de">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c28712b-bb55-4209-976b-8fc3797e1244">
+    <name>НаборЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор записей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8e24e167-e57f-445b-a20f-aaac6a7f535e">
+    <name>Произвольный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

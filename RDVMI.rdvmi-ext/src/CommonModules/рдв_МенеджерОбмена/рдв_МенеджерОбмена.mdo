@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="733f18a2-b180-482b-bb64-2387e0c9c2d0">
+  <name>рдв_МенеджерОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рдв менеджер обмена</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
