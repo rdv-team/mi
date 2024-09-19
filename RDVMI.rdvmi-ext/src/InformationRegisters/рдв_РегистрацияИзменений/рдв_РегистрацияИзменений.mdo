@@ -124,6 +124,71 @@
       <value></value>
     </fillValue>
   </resources>
+  <attributes uuid="27eceda1-1166-4548-a109-024bd7a20165">
+    <name>ВнешняяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВнешниеСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cff2c6af-936f-492a-9db3-37cadc9b295d">
+    <name>АдресМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес метода</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="80c818d6-eac4-4172-8424-f61455ef237d">
+    <name>Интерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерфейс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ИнтерфейсыИнтеграции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b02a4592-2fff-4caa-836c-89eab5a8c453">
+    <name>ВидСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид сообщения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВидыСообщенийИнтеграции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="37aa9314-d0fc-4c86-9685-ba195f350857">
     <name>ДатаРегистрацииВМиллисекундах</name>
     <synonym>
