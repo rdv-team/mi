@@ -8,7 +8,7 @@
   <comment>VELO-741</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</content>
+  <content>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы</content>
   <content>InformationRegister.рдв_СоответствиеОбъектовИнструкций</content>
   <parentSubsystem>Subsystem.рдв_Администрирование</parentSubsystem>
 </mdclass:Subsystem>

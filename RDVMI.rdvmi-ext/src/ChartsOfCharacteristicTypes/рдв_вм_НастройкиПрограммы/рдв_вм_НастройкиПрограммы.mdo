@@ -1,0 +1,1559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e282f78-c89f-4fe7-b467-f87a9b6ce256">
+  <producedTypes>
+    <objectType typeId="c9539c6d-7ed8-49db-8284-fc6ef043296d" valueTypeId="1dde5585-2730-487d-9038-e424e4f37202"/>
+    <refType typeId="7865b58c-da4a-4e0e-9371-3fc83c16b3e2" valueTypeId="c1d79873-c2ee-44fe-b1dc-25677ad10bbe"/>
+    <selectionType typeId="a2670dc2-1b0f-4efb-95db-0e891b3eae16" valueTypeId="3c020698-7689-4f86-bbb9-9cd6bc194d39"/>
+    <listType typeId="c8aac551-336d-4c8e-9949-95fdee4c3c2f" valueTypeId="1cd42e58-439f-42b9-9ef4-be7bb34d243e"/>
+    <managerType typeId="bba26b61-9130-4e7c-9bc9-e59e8d74066f" valueTypeId="4aaa902e-ea09-44fb-9122-19ceda3749ca"/>
+    <containerType typeId="2e39c95d-ae0d-4751-b1f5-5178e65ada85" valueTypeId="843e146d-cd99-491d-a514-255d3b75c94c"/>
+  </producedTypes>
+  <name>рдв_вм_НастройкиПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки программы (РДВ)</value>
+  </synonym>
+  <comment>VELO-613, VELO-691, VELO-702, VELO-605, VELO-609, VELO-610, VELO-614, VELO-604, VELO-891, VELO-746, VELO-782, VELO-777, VELO-759, VELO-1205, VELO-1428, VELO-1600, VELO-1587, VELO-1654, VELO-1789, VELO-1833, VELO-1819, VELO-2166, VELO-2201</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Настройка программы</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Настройки программы</value>
+  </listPresentation>
+  <type>
+    <types>CatalogRef.рдв_ВнешниеСистемы</types>
+    <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>3</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="24c931a7-9848-4827-a94c-e59da469be38">
+      <name>ВидНоменклатурыДляПечати</name>
+      <description>Вид номенклатуры для печати</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="33ad26c1-37e7-4788-b379-dae27462bb12">
+        <name>ВидНоменклатурыСКорзинкой</name>
+        <description>Вид номенклатуры с корзинкой</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="ef3b0c4d-bd0e-49ab-8e10-99d9c6651ec9">
+      <name>ДилерскийПортал</name>
+      <description>Дилерский портал</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="23d65f66-be8a-4713-9721-0e7691b66225">
+        <name>ДилерскийПорталВидыЦенДляВыгрузки</name>
+        <description>Виды цен для выгрузки</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="72ca2914-9cd0-48b9-96ae-78b4d6e2a10d">
+        <name>ДилерскийПорталВнешняяСистема</name>
+        <description>Внешняя система</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        </type>
+      </content>
+      <content id="ea5b08c4-2f43-41c8-a2c5-8b4a1963f720">
+        <name>ДилерскийПорталГраницаПолученныхИзменений</name>
+        <description>Граница полученных изменений из дилерского портала</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="2cc77b59-8fd5-46b2-921c-a4c28b0051c9">
+        <name>ДилерскийПорталГруппаЗапчастиИАксессуары</name>
+        <description>Группа запчасти и аксессуары</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="c08bad36-7dfd-4935-a957-b9b2ed8a85a2">
+        <name>ДилерскийПорталГруппаМототехника</name>
+        <description>Группа мототехника</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="68da52ad-24f2-476a-bd35-8ea7b0930e2e">
+        <name>ДилерскийПорталНоменклатураДляВыгрузки</name>
+        <description>Номенклатура/группы номенклатуры для выгрузки</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="867f46eb-810a-42f5-a905-fa1fc3472d86">
+        <name>ДилерскийПорталОрганизацииДляВыгрузки</name>
+        <description>Организации для выгрузки</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="b209e784-e222-47fb-b7bf-8b66f5162c77">
+        <name>ДилерскийПорталОрганизацияДляЗагрузкиЗаказовНаЗапчасти</name>
+        <description>Организация для загрузки заказов на запчасти (для заполнения документа)</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="aa981b02-ae37-4d29-b5dc-29ebc6735c45">
+        <name>ПодразделениеПослеПродажногоСопровождения</name>
+        <description>Подразделение после продажного сопровождения</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="6d24968c-6517-4ecb-b69f-32a1beeba0c9">
+        <name>ДилерскийПорталСкладыДляВыгрузки</name>
+        <description>Склады для выгрузки</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="a7320f1a-15da-4703-bcf6-b9bab19c6d62">
+        <name>СтатьяУслугиДилераПоГарантийномуРемонтуМОТО</name>
+        <description>Статья Услуги дилера по гарантийному ремонту МОТО</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="081da8ba-4b68-4b5d-a43c-6677c4a6fbc9">
+        <name>ДилерскийПорталУслугаПоРемонтуМОТО</name>
+        <description>Услуга по ремонту МОТО</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="2c6c815a-f786-4ab4-9982-80c4d56ce958">
+      <name>ЗагрузкаPackingList</name>
+      <description>Загрузка Packing List</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="70ff70c5-f9d4-4728-ac11-db8e7f26749f">
+        <name>ЗагрузкаPackingListВиртуальныеСкладыЗаказов</name>
+        <description>&quot;Виртуальные&quot; склады в заказах поставщиков</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="768fd8ec-0473-4fed-9664-a2b793ede68f">
+      <name>ЗагрузкаЭлектронныхГТД</name>
+      <description>Загрузка электронных ГТД</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="8409bd73-3c6a-4c9a-aa18-6fce854f6aa2">
+        <name>ЗагрузкаЭлектронныхГТДБрокер</name>
+        <description>Брокер (Контрагент) для подстановки в ГТД</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="ea15fdde-ca03-43d7-b181-a4390109a1fd">
+        <name>ЗагрузкаЭлектронныхГТДДоговор</name>
+        <description>Договор для подстановки в ГТД</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="bc8a367d-2c79-4f3d-8fe8-cce5bac2d30c">
+        <name>ЗагрузкаЭлектронныхГТДСоглашение</name>
+        <description>Соглашение для подстановки в ГТД</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="af9fd438-31f5-438a-aba8-12575c784e8a">
+        <name>ЗагрузкаЭлектронныхГТДСтатьяРасходовТаможенныйСбор</name>
+        <description>Статья расходов (Таможенный сбор) для подстановки в ГТД</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="b5750ca2-4bab-4c57-acb7-c3fc7f1fc6e4">
+      <name>ИдентификаторыДополнительныхРеквизитов</name>
+      <description>Идентификаторы дополнительных реквизитов</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="fbf41805-e75e-4973-b8b9-26798e579e78">
+        <name>АртикулУПП</name>
+        <description>Артикул УПП</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="2b890fdb-4777-4c5d-9e94-317e7ead3820">
+        <name>ВесБрутто</name>
+        <description>Вес брутто</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="2b15512e-4a34-4a50-b521-ec5c8f4a112b">
+        <name>КоличествоГрузовыхМест</name>
+        <description>Количество грузовых мест</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="236b22f8-0756-4119-8615-d12d0fe12e18">
+        <name>НаименованиеНаАнглийском</name>
+        <description>Наименование на английском</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="05d8abc6-f5b4-4a76-ab1d-1b3f6cf33415">
+        <name>СвойствоНазваниеНаЭтикетке</name>
+        <description>Номенклатура: Название на этикетке</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="25020191-acf7-4bed-8995-b7c558f60b82">
+        <name>НомерПоЧертежу</name>
+        <description>Номер по чертежу</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="0321dd28-8bec-4a48-a720-694475aaa7b1">
+        <name>ОрганизацияПрефиксДляПечати</name>
+        <description>Префикс для печати</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="7f9c53df-0b18-45bb-82f6-3fada56f002c">
+        <name>РазмерКолеса</name>
+        <description>Размер колеса</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="96d71e18-2778-4f29-96e9-e58a127dc096">
+        <name>РазмерРамы</name>
+        <description>Размер рамы</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="4224e839-e3db-4fbd-a692-b3fb5deb54c1">
+        <name>ТехническиеУсловия</name>
+        <description>Технические условия</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="6251762d-24f0-4dac-822e-2af9cdd885b3">
+        <name>ТипПоСертификату</name>
+        <description>Тип по сертификату</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="1c5f5503-7d55-4f77-9356-0766ec89c8a1">
+        <name>СвойствоХарактеристикаРазмерРамы</name>
+        <description>Характеристика: Размер рамы</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="de9e55f7-a156-4190-9ef9-737a9f6d267f">
+        <name>ХарактеристикаЦвет</name>
+        <description>Цвет</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="043b4192-c1d9-45b5-97d6-98726c0dd03b">
+        <name>ЦветНаАнглийском</name>
+        <description>Цвет (на английском)</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="72fb2884-687d-474f-9591-770b09204819">
+      <name>ИнтеграцияСДокументооборотом</name>
+      <description>Интеграция с документооборотом</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="7d0de458-180d-40f0-85fa-50292095b0c9">
+        <name>ГФУПоВидамДоговоров</name>
+        <description>ГФУ по Видам договоров</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="881f9359-203a-4303-88f5-01bc3e5647fe">
+        <name>СоответствиеВидовКонтактнойИнформацииКонтрагентПартнер</name>
+        <description>Соответствие видов контактной информации Контрагент - Партнер</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="96225a8e-45ad-4bae-aad4-f5040a50b335">
+        <name>СоответствиеВидовКонтактнойИнформацииФизЛицоКонтрагент</name>
+        <description>Соответствие видов контактной информации Физ лицо - Контрагент</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="fbe67f3f-cc21-4917-985b-4eb895a1d9ea">
+      <name>НастройкиПечати</name>
+      <description>Настройки печати</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="a9fbc4cd-497c-4c20-ae7b-ea84c9323005">
+        <name>ТНВидУпаковки</name>
+        <description>Вид упаковки (ТН)</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>30</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="486aecce-a3b6-4c4c-a1bc-82706524cdee">
+        <name>ИспользоватьФаксимилеПриПечати</name>
+        <description>Использовать факсимиле при печати</description>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="7b0a24df-176a-445d-86c1-443dafc9dd61">
+        <name>КоэффициентПечатиЭтикетокГПМОТО</name>
+        <description>Коэффициент печати этикеток Готовой Продукции МОТО</description>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>2</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="4ef14f5b-4f75-4473-a0f6-70d95356f059">
+        <name>ТНОтгрузочноеНаименованиеГруза</name>
+        <description>Отгрузочное наименование груза (ТН)</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="e31d72ea-d244-4037-a731-f6a92dc9537e">
+        <name>РесурснаяСпецификацияРазработчик</name>
+        <description>Ресурсная спецификация Разработчик</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="95af7360-fd29-4a7b-9086-121b8e237262">
+        <name>РесурснаяСпецификацияУтверждено</name>
+        <description>Ресурсная спецификация Утверждено</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="de1df4cf-f0ee-4ff0-9637-6aa2c25d7392">
+      <name>НастройкиПоУмолчанию</name>
+      <description>Настройки по умолчанию</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="4eab2d18-4d17-44cc-9b6b-953b3940383a">
+        <name>АдресПространстваFAQ</name>
+        <description>Адрес пространства FAQ</description>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="8bb53103-b7d9-4f76-90ff-f3ae4f31cb69">
+        <name>ВключитьИспользованиеАльтернативногоРежимаРаботыСРасходномОрдером</name>
+        <description>Включить использование альтернативного режима работы с расходном ордером</description>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="fa0db06e-612f-4402-b668-0644b0620972">
+        <name>ГруппаДляЦеховыхКладовых</name>
+        <description>Группа для цеховых кладовых</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="d2c11af4-cdde-400a-b908-59c91eabaef4">
+        <name>КонстантаДляГенерацииШтрихкодов</name>
+        <description>Константа для генерации штрихкодов</description>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="b28603cc-ef78-4b00-9b64-9a0eb6b5e795">
+        <name>КонтрагентЖВМЗ</name>
+        <description>Контрагент ЖВМЗ</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="0dbafb26-c58b-43ed-9f3d-2815afbe1a3e">
+        <name>ОсновнаяОрганизация</name>
+        <description>Основная организация</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="915052ad-52bb-4c30-8cd6-a0e171d992bc">
+        <name>ОсновныеБанковскиеСчетаОрганизаций</name>
+        <description>Основные банковские счета организаций</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="de9f22ef-7090-4ff2-8e0a-231efb8e4616">
+        <name>ПодразделениеДляЗакупаемыхВЕЛО</name>
+        <description>Подразделение для закупаемых ВЕЛО</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="0417fc3f-2382-46a0-9926-14f2ee671bda">
+        <name>СкладОтгрузкиВЗаявкеНаОтгрузку</name>
+        <description>Склад отгрузки в заявке на отгрузку</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="f9302375-92a2-40ae-aa8d-51e116ae97dc">
+      <name>ОтправкаПечатныхФорм</name>
+      <description>Отправка печатных форм</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="d559d805-994a-4044-888d-7921b9d33105">
+        <name>ЗадержкаПередОтправкойВМинутах</name>
+        <description>Задержка перед отправкой в минутах</description>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>3</precision>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="31471096-4835-43dd-8ff9-9bfdc5fd8451">
+        <name>ТипОчередиОтправка</name>
+        <description>Тип очереди отправка</description>
+        <type>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+        </type>
+      </content>
+      <content id="56908be8-f35b-48b3-81d8-f519475ec43b">
+        <name>УчетнаяЗаписьОтправителяПоУмолчанию</name>
+        <description>Учетная запись отправителя по умолчанию</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="ccd0314c-2af0-4b1b-aa0d-d3dc28e2cdf6">
+        <name>ФорматыОтправляемыхПечатныхФорм</name>
+        <description>Форматы отправляемых печатных форм</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="577effca-aa11-401b-9fdc-83c01cf6bb18">
+      <name>РаспределениеМатериаловИРабот</name>
+      <description>Распределение материалов и работ</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="5827ea66-a848-4246-bf3f-17a62400a4e9">
+        <name>ВидЦенДляПроизводственныхИзлишков</name>
+        <description>Вид цен для производственных излишков</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="791c35bb-6137-49a0-9ac4-6d54e93f4b2d">
+        <name>ПравилоРаспределенияДляВозвратныхОтходов</name>
+        <description>Правило распределения (для возвратных отходов)</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="607428f0-aaed-4d4c-82a3-4191ed60b1d6">
+        <name>ПравилоРаспределенияДляМатериалов</name>
+        <description>Правило распределения (для материалов)</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="a81a6d37-a9f2-4cb8-b451-777fbd89696e">
+        <name>ПричинаОтменыПроизводства</name>
+        <description>Причина отмены производства</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="c8fe4cf3-399c-418e-99b7-17a2ba304185">
+        <name>СтатьяКалькуляцииДляВозвратныхОтходов</name>
+        <description>Статья калькуляции (для возвратных отходов)</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="b9fcf00e-e7f8-41d1-836f-5d3c61268275">
+        <name>СтатьяКалькуляцииДляМатериалов</name>
+        <description>Статья калькуляции (для материалов)</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="fad0b3b0-2ccf-487d-98e3-f730f44e9b03">
+      <name>РДВМаркет</name>
+      <description>РДВ Маркет</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="3771a5bc-23b2-464e-975e-dab3deb7c602">
+        <name>FTPДляВыгрузкиОстатков</name>
+        <description>FTP Для выгрузки остатков</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        </type>
+      </content>
+    </items>
+    <items id="fb297a0c-8cd0-406a-b0d2-f889e182233d">
+      <name>СлужебныйТипизацияКлючейСоответствий</name>
+      <description>Служебный. Типизация ключей соответствий</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="e4c92a7e-3482-40eb-a357-789b187ed9b6">
+        <name>ГФУПоВидамДоговоровТипКлюча</name>
+        <description>ГФУ по видам договоров. Тип ключа</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+      <content id="cdcb7247-a97c-449f-a7e6-a508d7fce113">
+        <name>ОсновныеБанковскиеСчетаОрганизацийТипКлюча</name>
+        <description>Основные банковские счета организаций тип ключа</description>
+        <type>
+          <types>CatalogRef.рдв_ВнешниеСистемы</types>
+          <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+          <types>Boolean</types>
+          <types>String</types>
+          <types>Date</types>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+          </numberQualifiers>
+          <stringQualifiers>
+            <length>100</length>
+          </stringQualifiers>
+          <dateQualifiers/>
+        </type>
+      </content>
+    </items>
+    <items id="56e89ad5-2b8d-4bd5-838d-c1276352e44b">
+      <name>ФункциональныеНастройки</name>
+      <description>Функциональные настройки</description>
+      <isFolder>true</isFolder>
+      <type/>
+      <content id="bbb03493-bcd4-4ee2-891a-b0a725914636">
+        <name>ДатаНачалаДействияДоработокRDV</name>
+        <description>Дата начала действия доработок RDV</description>
+        <type>
+          <types>Date</types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="f13bf0ab-32f8-4a39-b1b3-ce6c5a9a50f7">
+        <name>ЛогироватьЗапросыТСД</name>
+        <description>Логировать запросы ТСД</description>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="d22d78b3-f0f8-4e8d-bb66-525589a0c71b">
+      <name>ВидЦеныТН</name>
+      <description>Вид цены (ТН)</description>
+      <type>
+        <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="f91164a7-015d-4b94-ac3e-416d1e0dd13e">
+      <name>ПодразделенияДляАвтоматическогоРезервирования</name>
+      <description>Подразделения для автоматического резервирования</description>
+      <type>
+        <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="27f34ced-bdfe-47e9-b253-4dda0cc69a5c">
+      <name>СегментыПартнеровСудоходныеКомпании</name>
+      <description>Сегменты партнеров судоходные компании</description>
+      <type>
+        <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="a4217e6a-903c-42ad-a31a-b4e84b3bc77c">
+      <name>СкладыДляПроизводства</name>
+      <description>Склады для производства</description>
+      <type>
+        <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="04a4d5ac-7e31-4fab-bb3a-2c34045361b9">
+      <name>СкладыОбеспечения</name>
+      <description>Склады обеспечения</description>
+      <type>
+        <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="c935cd17-ad0d-4ca1-88c7-3558b1df7a97">
+      <name>СрокХраненияИнформацииОСнятыхРезервахВДнях</name>
+      <description>Срок хранения информации о снятых резервах в днях</description>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+    </items>
+    <items id="1ad8f228-683c-40c4-aa57-df5e3157f179">
+      <name>СтатьяСписанияГарантийныеРемонтыМОТО</name>
+      <description>Статья списания гарантийные ремонты МОТО</description>
+      <type>
+        <types>CatalogRef.рдв_ВнешниеСистемы</types>
+        <types>CatalogRef.рдв_ТипыОчередейОбработкиДанных</types>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+    </items>
+    <items id="1836d593-53da-4098-a5da-72c80083b404">
+      <name>УслугаПоРемонтуВЕЛО</name>
+      <description>Услуга по ремонту ВЕЛО</description>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <predefinedDataUpdate>AutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="10cf584d-e952-4d3a-babe-64e5722dc9be">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Characteristic.рдв_вм_НастройкиПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+    <linkByType>
+      <field>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы.StandardAttribute.ValueType</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81ff3871-bd76-4cd0-8e61-707ecc95ec6d">
+    <name>ПроверятьЗаполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять заполнение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="072449e6-a2dc-4242-8b0e-22fe68aa8132">
+    <name>ОбязательноеЗаполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательное заполнение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="135b38b8-3ec5-4b5e-82cb-671cb6f47f99">
+    <name>ВидЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид значения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рдв_ВидыЗначенийНастроек</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>2bd88bd8-6599-4b0c-b737-74bfdb2e426a.485625ff-fe7d-41a0-8a95-0358bddecc10</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6276160d-e6a1-4ad4-906b-a72fb1c6b038">
+    <name>ТипКлюча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ключа</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.рдв_вм_НастройкиПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af9739d8-8169-4d47-a524-58929d312828">
+    <name>ПредставлениеЗначенияНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление значения настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7219ddbb-1299-4c3f-9592-7bb03287fc2b">
+    <name>ОбновлятьПовторноИспользуемыеЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять повторно используемые значения</value>
+    </synonym>
+    <comment>VELO-1699</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="eada6443-066e-446a-8014-36ca387e16cb">
+    <producedTypes>
+      <objectType typeId="d2ab8473-a613-402f-8cb0-492cb3e3e58c" valueTypeId="8d6d17b7-076c-4b3b-9243-891cb91c4e03"/>
+      <rowType typeId="74de92fe-50a9-42b4-8f3c-dc3b69d4e942" valueTypeId="002affde-2b3e-4c78-94f1-c3d7df893077"/>
+    </producedTypes>
+    <name>СоответствиеЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие значений</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2acbe76b-1ec1-45dd-92d7-d9b776824bb4">
+      <name>Ключ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ</value>
+      </synonym>
+      <type>
+        <types>Characteristic.рдв_вм_НастройкиПрограммы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <linkByType>
+        <field>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы.Attribute.ТипКлюча</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="130f978e-24c1-4c2b-9ad7-9122e990bd8d">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.рдв_вм_НастройкиПрограммы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <linkByType>
+        <field>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы.StandardAttribute.ValueType</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ab2822ef-b910-4c32-8dba-98e7bc14dc20">
+    <producedTypes>
+      <objectType typeId="e5e47c67-f567-4ee1-8bd1-6a3d96a182d2" valueTypeId="0c0cdc0d-f4ce-4904-a97a-bf206ff32f51"/>
+      <rowType typeId="741f4801-4fde-49ab-9b3d-19a86a1e2250" valueTypeId="e059b18b-9d0a-4b8b-9e50-1da3e9a76cd7"/>
+    </producedTypes>
+    <name>Значения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2203a398-2efa-4d65-8690-d8b773d41d56">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Characteristic.рдв_вм_НастройкиПрограммы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <linkByType>
+        <field>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы.StandardAttribute.ValueType</field>
+      </linkByType>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c7df5f56-2e38-4199-8408-f16bcd177c5f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d4fa52e-cf6c-4e59-a796-bb6b58b3e950">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

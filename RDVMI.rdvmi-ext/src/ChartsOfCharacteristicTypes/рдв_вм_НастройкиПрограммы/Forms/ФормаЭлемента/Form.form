@@ -1214,7 +1214,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ChartOfCharacteristicTypesObject.рдв_НастройкиПрограммы</types>
+      <types>ChartOfCharacteristicTypesObject.рдв_вм_НастройкиПрограммы</types>
     </valueType>
     <view>
       <common>true</common>
