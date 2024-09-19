@@ -493,7 +493,7 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <mainTable>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы</mainTable>
+      <mainTable>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>
