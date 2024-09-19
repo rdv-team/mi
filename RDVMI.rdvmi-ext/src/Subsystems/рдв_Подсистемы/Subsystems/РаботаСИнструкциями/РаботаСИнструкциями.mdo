@@ -16,7 +16,7 @@
   <content>CommonCommand.рдв_ИнструкцииПоРаботеССистемой</content>
   <content>CommonModule.рдв_РаботаСИнструкциями</content>
   <content>CommonModule.рдв_НастройкиПрограммы</content>
-  <content>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы</content>
+  <content>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</content>
   <content>CommonModule.рдв_РаботаСИнструкциямиПереопределяемый</content>
   <parentSubsystem>Subsystem.рдв_Подсистемы</parentSubsystem>
 </mdclass:Subsystem>

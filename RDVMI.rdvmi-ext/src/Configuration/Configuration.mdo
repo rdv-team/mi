@@ -101,5 +101,5 @@
   <informationRegisters>InformationRegister.рдв_ОшибкиИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.рдв_РегистрацияИзменений</informationRegisters>
   <informationRegisters>InformationRegister.рдв_СоответствиеОбъектовИнструкций</informationRegisters>
-  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.рдв_вм_НастройкиПрограммы</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
