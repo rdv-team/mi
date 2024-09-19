@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3b6325a-567b-41f9-bdbd-1bf1c811b141">
+  <producedTypes>
+    <refType typeId="54c57961-48eb-420e-9e46-d35579ab87a3" valueTypeId="a0352568-c69d-4ca7-9593-985d77a1c9ce"/>
+    <listType typeId="38975c5b-0392-4d08-9d6a-f69feb1fb475" valueTypeId="cc853ec1-4558-466a-a71d-089762ca6c3c"/>
+    <managerType typeId="eb9d49ce-4446-4ef1-a9ac-a8286f4d150d" valueTypeId="014540d2-3ffb-4631-bf44-3113f31e0245"/>
+  </producedTypes>
+  <name>рдв_ТипыЗапросовИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы запросов интеграции (РДВ)</value>
+  </synonym>
+  <comment>VELO-640</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы запросов интеграции</value>
+  </listPresentation>
+</mdclass:Enum>

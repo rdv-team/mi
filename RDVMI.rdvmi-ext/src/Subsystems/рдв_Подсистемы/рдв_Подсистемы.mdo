@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="297d6ea8-39ab-49ef-b8fa-04727b6c6136">
+  <name>рдв_Подсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистемы (РДВ)</value>
+  </synonym>
+  <comment>VELO-1570</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>fdb012c9-583a-42af-95da-070e75a58078</content>
+  <content>CommonModule.рдв_ОбщегоНазначения</content>
+  <subsystems>РаботаСИнструкциями</subsystems>
+</mdclass:Subsystem>

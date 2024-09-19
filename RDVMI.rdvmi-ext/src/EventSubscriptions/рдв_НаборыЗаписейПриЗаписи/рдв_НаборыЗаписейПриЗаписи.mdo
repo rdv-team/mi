@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe2c8813-bb04-4e46-9461-817252670ed9">
+  <name>рдв_НаборыЗаписейПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы записей при записи (РДВ)</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.рдв_ОбработчикиСобытий.НаборыЗаписейПриЗаписи</handler>
+</mdclass:EventSubscription>

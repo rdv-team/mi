@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00b99d14-390c-4fb9-ad13-0c9ea56d748a">
+  <producedTypes>
+    <containerType typeId="23f76406-6804-4a52-bd15-80219027ae32" valueTypeId="5424c7a6-4c7b-4b9d-a5b1-396472f285fe"/>
+  </producedTypes>
+  <name>рдв_вм_ОбъектОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объект очереди (ВМ)</value>
+  </synonym>
+  <comment>VELO-2385</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

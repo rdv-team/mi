@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="477a9be5-a7d9-44ee-b062-6677dea9e28d">
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="997d49bf-84fb-44d2-b6fa-64aa06aa942b">
   <name>рдв_ОбщегоНазначения</name>
   <synonym>
     <key>ru</key>
-    <value>Рдв общего назначения</value>
+    <value>Общего назначения (РДВ)</value>
   </synonym>
+  <comment>VELO-613</comment>
   <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

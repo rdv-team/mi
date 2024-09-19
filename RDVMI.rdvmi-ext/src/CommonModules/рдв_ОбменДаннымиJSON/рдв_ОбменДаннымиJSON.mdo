@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3138ef56-4021-4d15-888a-8e99b8c9245e">
-  <name>рдв_ОбменДаннымиJSON</name>
-  <synonym>
-    <key>ru</key>
-    <value>Рдв обмен данными JSON</value>
-  </synonym>
-  <server>true</server>
-</mdclass:CommonModule>

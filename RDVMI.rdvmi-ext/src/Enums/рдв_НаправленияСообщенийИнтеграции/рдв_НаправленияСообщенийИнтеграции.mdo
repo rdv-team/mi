@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7987f6a-8464-447c-96b1-52723981dc53">
+  <producedTypes>
+    <refType typeId="3b2b208a-61c8-4905-98e5-f8c46dcb27e2" valueTypeId="d9904cf7-98f8-4850-a7b2-57bcab008cf8"/>
+    <listType typeId="9ab0ee3f-28e9-4deb-85c0-522974a4dd70" valueTypeId="ef42e460-0838-4fc8-8023-263440b53fbb"/>
+    <managerType typeId="2c37e04b-6c28-49b7-9eb5-04fabcd7cdad" valueTypeId="4ccfe34b-a434-4e0c-b4b3-f298832223a5"/>
+  </producedTypes>
+  <name>рдв_НаправленияСообщенийИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления сообщений интеграции (РДВ)</value>
+  </synonym>
+  <comment>VELO-640</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Направления сообщений интеграции</value>
+  </listPresentation>
+  <enumValues uuid="b162ef76-1968-4ae0-a618-933ec81c9087">
+    <name>Входящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="804ed8e7-fe74-41f2-8188-618b1a147c05">
+    <name>Исходящее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

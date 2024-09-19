@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3ddd09a-a51d-4a45-ab25-509f5e566e11">
+  <producedTypes>
+    <objectType typeId="3840fc1e-b840-4942-b75a-41784c3d33e4" valueTypeId="bb9f1ddf-0081-4f3a-8182-0335b36e7445"/>
+    <managerType typeId="6c2f8a8b-1b32-4a01-be41-381a42c97e63" valueTypeId="7b6a317b-584e-4f47-88f2-b6c92de70e9a"/>
+  </producedTypes>
+  <name>рдв_СостояниеОчередейОбработкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние очередей обработки данных</value>
+  </synonym>
+  <comment>VELO-625</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рдв_СостояниеОчередейОбработкиДанных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3f23bfb6-857c-4153-ade7-84edda2abda3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1826e368-ddcb-41dd-99eb-62f12fb58c62">
+  <name>рдв_ЗапускОчередейОбработкиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск очередей обработки данных (РДВ)</value>
+  </synonym>
+  <methodName>CommonModule.рдв_РаботаСОчередями.РегламентЗапускаОчередей</methodName>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

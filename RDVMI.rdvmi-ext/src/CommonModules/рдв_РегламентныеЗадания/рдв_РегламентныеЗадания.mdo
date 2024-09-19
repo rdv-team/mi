@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34ac7d32-300d-412a-b51f-416ed73aa1b9">
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19e30087-95f8-44cc-aaa4-9d679ff1ff7b">
   <name>рдв_РегламентныеЗадания</name>
   <synonym>
     <key>ru</key>
-    <value>Рдв регламентные задания</value>
+    <value>Регламентные задания сервер (РДВ)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scheduled jobs server</value>
   </synonym>
   <server>true</server>
-  <serverCall>true</serverCall>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>

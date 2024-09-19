@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f60e6f74-9a0b-4e9e-bf68-b2f5ee217f35">
+  <name>рдв_ЧтениеJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение JSON (РДВ)</value>
+  </synonym>
+  <comment>VELO-609</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

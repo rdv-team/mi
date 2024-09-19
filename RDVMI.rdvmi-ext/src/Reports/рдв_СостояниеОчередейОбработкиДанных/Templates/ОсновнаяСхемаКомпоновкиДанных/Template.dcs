@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ОсновнойНабор</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипОчереди</dataPath>
+			<field>ТипОчереди</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Состояние</dataPath>
+			<field>Состояние</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Остановленных</dataPath>
+			<field>Остановленных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остановленных</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НеУспешныхПопыток</dataPath>
+			<field>НеУспешныхПопыток</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Неуспешных попыток</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Всего</dataPath>
+			<field>Всего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СекундОтСоздания</dataPath>
+			<field>СекундОтСоздания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общее время, сек</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>1</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=1</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДлительностьОбработки</dataPath>
+			<field>ДлительностьОбработки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обработка, сек</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>1</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=1</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПотокОбработки</dataPath>
+			<field>ПотокОбработки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поток обработки</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:ignoreNullValues>true</dcscom:ignoreNullValues>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Данные</dataPath>
+			<field>Данные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	&amp;ТекущаяОчередь КАК Данные,
+	Очереди.ТипОчереди КАК ТипОчереди,
+	Очереди.ИдентификаторПотока КАК ПотокОбработки,
+	Очереди.Состояние КАК Состояние,
+	СУММА(Очереди.КоличествоПопытокОбработки) КАК НеУспешныхПопыток,
+	СУММА(ВЫБОР
+			КОГДА Очереди.ОстановленаОбработка
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ) КАК Остановленных,
+	СУММА(1) КАК Всего,   
+	СРЕДНЕЕ(РАЗНОСТЬДАТ(Очереди.ДатаСозданияUTC, &amp;ТекущаяДата, СЕКУНДА)) КАК СекундОтСоздания,
+	// RM-2481 14.07.2022 tosina@rdv-it.ru Закомментирована и заменена 1 строка. Переименование реквизитов журнала				
+	//СРЕДНЕЕ(РАЗНОСТЬДАТ(Очереди.ДатаИзмененияСостояния, &amp;ТекущаяДата, СЕКУНДА)) КАК ДлительностьОбработки
+	СРЕДНЕЕ(РАЗНОСТЬДАТ(Очереди.ДатаИзмененияСостоянияUTC, &amp;ТекущаяДата, СЕКУНДА)) КАК ДлительностьОбработки
+ИЗ
+	РегистрСведений.рдв_ОчередиОбработкиДанных КАК Очереди
+
+СГРУППИРОВАТЬ ПО
+	Очереди.ТипОчереди,
+	Очереди.Состояние,
+	Очереди.ИдентификаторПотока
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ЖурналЗаПоследнийЧас,
+	ЖурналЧас.ТипОчереди,
+	NULL,
+	ЖурналЧас.Состояние,
+	СУММА(ЖурналЧас.КоличествоПопытокОбработки),
+	СУММА(ВЫБОР
+			КОГДА ЖурналЧас.ОстановленаОбработка
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ),
+	СУММА(1),
+	// RM-2481 14.07.2022 tosina@rdv-it.ru Закомментирована и заменена 1 строка. Переименование реквизитов журнала				
+	//СРЕДНЕЕ(РАЗНОСТЬДАТ(ЖурналЧас.ДатаСозданияUTC, ЖурналЧас.ДатаЖурнала, СЕКУНДА)),
+	СРЕДНЕЕ(РАЗНОСТЬДАТ(ЖурналЧас.ДатаСозданияUTC, ЖурналЧас.ДатаЖурналаUTC, СЕКУНДА)),
+	СРЕДНЕЕ(ЖурналЧас.ДлительностьОбработки / 1000)
+ИЗ
+	РегистрСведений.рдв_ЖурналОчередейОбработкиДанных КАК ЖурналЧас
+ГДЕ
+	ЖурналЧас.Состояние = &amp;СостояниеВыполнено
+	// RM-2481 14.07.2022 tosina@rdv-it.ru Закомментирована и заменена 1 строка. Переименование реквизитов журнала				
+	//И ЖурналЧас.ДатаЖурнала &gt;= ДОБАВИТЬКДАТЕ(&amp;ТекущаяДата, ЧАС, -1)
+	И ЖурналЧас.ДатаЖурналаUTC &gt;= ДОБАВИТЬКДАТЕ(&amp;ТекущаяДата, ЧАС, -1)
+
+СГРУППИРОВАТЬ ПО
+	ЖурналЧас.ТипОчереди,
+	ЖурналЧас.Состояние
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ЖурналЗаПоследнийДень,
+	ЖурналДень.ТипОчереди,
+	NULL,
+	ЖурналДень.Состояние,
+	СУММА(ЖурналДень.КоличествоПопытокОбработки),
+	СУММА(ВЫБОР
+			КОГДА ЖурналДень.ОстановленаОбработка
+				ТОГДА 1
+			ИНАЧЕ 0
+		КОНЕЦ),
+	СУММА(1),
+	// RM-2481 14.07.2022 tosina@rdv-it.ru Закомментирована и заменена 1 строка. Переименование реквизитов журнала				
+	//СРЕДНЕЕ(РАЗНОСТЬДАТ(ЖурналДень.ДатаСозданияUTC, ЖурналДень.ДатаЖурнала, СЕКУНДА)),
+	СРЕДНЕЕ(РАЗНОСТЬДАТ(ЖурналДень.ДатаСозданияUTC, ЖурналДень.ДатаЖурналаUTC, СЕКУНДА)),
+	СРЕДНЕЕ(ЖурналДень.ДлительностьОбработки / 1000)
+ИЗ
+	РегистрСведений.рдв_ЖурналОчередейОбработкиДанных КАК ЖурналДень
+ГДЕ
+	ЖурналДень.Состояние = &amp;СостояниеВыполнено
+	// RM-2481 14.07.2022 tosina@rdv-it.ru Закомментирована и заменена 1 строка. Переименование реквизитов журнала				
+	//И ЖурналДень.ДатаЖурнала &gt;= ДОБАВИТЬКДАТЕ(&amp;ТекущаяДата, ДЕНЬ, -1)
+	И ЖурналДень.ДатаЖурналаUTC &gt;= ДОБАВИТЬКДАТЕ(&amp;ТекущаяДата, ДЕНЬ, -1)
+
+СГРУППИРОВАТЬ ПО
+	ЖурналДень.ТипОчереди,
+	ЖурналДень.Состояние</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Всего</dataPath>
+		<expression>Сумма(Всего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДлительностьОбработки</dataPath>
+		<expression>Среднее(ДлительностьОбработки)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>НеУспешныхПопыток</dataPath>
+		<expression>Сумма(НеУспешныхПопыток)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Остановленных</dataPath>
+		<expression>Сумма(Остановленных)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СекундОтСоздания</dataPath>
+		<expression>Среднее(СекундОтСоздания)</expression>
+	</totalField>
+	<parameter>
+		<name>ТекущаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текущая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ТекущаяОчередь</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текущая очередь</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>50</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>СостояниеВыполнено</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Состояние выполнено</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.рдв_СостоянияОчередейОбработкиДанных</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.рдв_СостоянияОчередейОбработкиДанных.Выполнена</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ЖурналЗаПоследнийДень</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Журнал за последний день</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>50</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ЖурналЗаПоследнийЧас</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Журнал за последний час</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>50</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>СостояниеОчередей</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Состояние очередей</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Всего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДлительностьОбработки</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СекундОтСоздания</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>НеУспешныхПопыток</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Остановленных</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Данные</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ТипОчереди</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ПотокОбработки</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Состояние</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

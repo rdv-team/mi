@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87c7f2f2-db6d-47d5-bddb-890b95014978">
+  <name>рдв_ФормаHTMLДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма HTML документа (РДВ)</value>
+  </synonym>
+  <comment>VELO-1570</comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

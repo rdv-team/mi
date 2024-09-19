@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab51d294-78a4-4a3b-b09a-6f5eaf4fad55">
+  <producedTypes>
+    <refType typeId="15ab9beb-c2e9-4ff7-a669-f8768066d5c3" valueTypeId="153abfdf-0a9e-4d4a-96b1-adbfacb67a4b"/>
+    <listType typeId="1901284c-7859-4408-af2b-e3b3decca185" valueTypeId="c787441b-0084-4b8c-b178-1044ca00d61e"/>
+    <managerType typeId="90a3b7c8-e2b5-4220-9f0c-9aec4deb65b9" valueTypeId="4bfe7aed-a8f0-42b7-8541-b11565832467"/>
+  </producedTypes>
+  <name>рдв_вм_Интеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграции (ВМ)</value>
+  </synonym>
+  <comment>VELO-609</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Интеграции</value>
+  </listPresentation>
+  <enumValues uuid="226062fd-bb35-4f7f-ad4d-2d45763f2ccc">
+    <name>ДилерскийПортал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дилерский портал</value>
+    </synonym>
+    <comment>VELO-609</comment>
+  </enumValues>
+</mdclass:Enum>

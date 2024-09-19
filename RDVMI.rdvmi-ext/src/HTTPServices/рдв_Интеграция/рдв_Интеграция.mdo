@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44f37843-3378-4e93-b034-55bee958386f">
+  <name>рдв_Интеграция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция (РДВ)</value>
+  </synonym>
+  <rootURL>rdv_integration</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="91ae7bf9-edac-49f8-a36f-9d3d9e7caee1">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange</value>
+    </synonym>
+    <template>/exchange</template>
+    <methods uuid="3e307a08-f704-47f8-b831-a05f0d867677">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ExchangePOST</handler>
+    </methods>
+    <methods uuid="c7c92ad5-0d8f-49c7-800a-aef2c1c31c13">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ExchangeGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3264acf-e121-424f-a20b-f37d40a42eaf">
+  <name>рдв_СправочникиПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники при записи (РДВ)</value>
+  </synonym>
+  <source>
+    <types>CatalogObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.рдв_ОбработчикиСобытий.СправочникиПриЗаписи</handler>
+</mdclass:EventSubscription>

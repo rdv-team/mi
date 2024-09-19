@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b38adad-3ce2-4591-9710-f91d447baacf">
+  <producedTypes>
+    <refType typeId="27de506f-ea41-4326-aac8-81db87c54bec" valueTypeId="9cea6d93-3ce4-49f3-aa3a-e29f295b98bf"/>
+    <listType typeId="92c8f0f2-3ea3-4309-9b2a-2b0972f41fc8" valueTypeId="dbaee127-4f7d-490f-9960-bcbefae3e49e"/>
+    <managerType typeId="b88e6c17-2a0d-4997-9f40-3196d76ac04a" valueTypeId="62fc92d2-b7bc-4716-ae93-d3f6d901ccd4"/>
+  </producedTypes>
+  <name>рдв_ТипыОшибокИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ошибок интеграции (РДВ)</value>
+  </synonym>
+  <comment>VELO-640</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы ошибок интеграции</value>
+  </listPresentation>
+  <enumValues uuid="cb771493-ae65-46b4-9916-b24fa22ed8b2">
+    <name>ИсключениеОбработкиСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключение обработки сервиса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eeec08b-8eae-47fc-a03e-e276d307d3ee">
+    <name>ОбщаяОшибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

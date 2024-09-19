@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adbf00b9-f974-4e97-931d-b9c7ffd56cf0">
+  <name>рдв_ПаузаПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рдв пауза повт исп (РДВ)</value>
+  </synonym>
+  <comment>VELO-625</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

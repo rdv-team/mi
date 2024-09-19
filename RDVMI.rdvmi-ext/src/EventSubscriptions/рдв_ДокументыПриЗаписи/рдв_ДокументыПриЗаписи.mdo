@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a57b45eb-5a9e-4811-bf99-ac8129a73f05">
+  <name>рдв_ДокументыПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы при записи (РДВ)</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.рдв_ОбработчикиСобытий.ДокументыПриЗаписи</handler>
+</mdclass:EventSubscription>

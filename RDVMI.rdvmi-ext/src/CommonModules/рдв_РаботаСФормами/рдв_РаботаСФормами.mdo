@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e9a10b-691c-4d15-87d6-16b3f6617020">
+  <name>рдв_РаботаСФормами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с формами (РДВ)</value>
+  </synonym>
+  <comment>VELO-613</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

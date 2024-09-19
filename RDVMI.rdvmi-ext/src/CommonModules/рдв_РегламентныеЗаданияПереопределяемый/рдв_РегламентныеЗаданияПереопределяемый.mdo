@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f45176b4-ebee-45f7-b021-6ad5643f834d">
+  <name>рдв_РегламентныеЗаданияПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания сервер (переопределяемый) (РДВ)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Scheduled jobs server</value>
+  </synonym>
+  <comment>VELO-625</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

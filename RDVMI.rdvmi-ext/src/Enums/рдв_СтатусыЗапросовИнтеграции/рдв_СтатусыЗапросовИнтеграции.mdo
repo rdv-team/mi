@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43c20e12-d9ce-4605-84db-a3879e0c13f8">
+  <producedTypes>
+    <refType typeId="68eb9c13-4aed-4b70-a63d-e000f43a8127" valueTypeId="d1d16fb0-1d39-4f9d-aadc-9b91073ffcf1"/>
+    <listType typeId="6c5afd27-d8e1-48d8-b0ae-57891307ea98" valueTypeId="9900ea8f-040e-4e2a-a440-a4d646e9c3e3"/>
+    <managerType typeId="50c44257-82c3-44e2-a86c-2090364ec188" valueTypeId="d0ae9e94-ac75-4e57-ae9b-8c8c9f341a1d"/>
+  </producedTypes>
+  <name>рдв_СтатусыЗапросовИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы запросов интеграции (РДВ)</value>
+  </synonym>
+  <comment>VELO-640</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы запросов интеграции</value>
+  </listPresentation>
+  <enumValues uuid="710d7c32-8488-4dd8-86b3-c378d20d306f">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="101ae896-dfa9-474e-a0cb-3c1319adaeb9">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e14ee263-579b-4290-8c1d-50f38b6c7f81">
+    <name>Исключение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

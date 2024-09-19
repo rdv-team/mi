@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df69fd67-e3f7-4306-b27e-3eeb85eb7501">
+  <producedTypes>
+    <refType typeId="cc2ad3f0-9971-4947-875e-3f44ea9daf55" valueTypeId="445a0c00-7e8e-43a2-9734-8e6cad625ce8"/>
+    <listType typeId="f2ac11c5-2d3a-4cc0-9b0a-7e8905d49308" valueTypeId="967736f6-4016-450b-9dcd-6d370c06a4fa"/>
+    <managerType typeId="df82a52e-372d-4f17-b819-b75b0459c045" valueTypeId="f2ac6a45-5714-4a11-b6f3-cac8fc661ab4"/>
+  </producedTypes>
+  <name>рдв_ВидыЗначенийНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды значений настроек (РДВ)</value>
+  </synonym>
+  <comment>VELO-613</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды значений настроек</value>
+  </listPresentation>
+  <enumValues uuid="5475f703-b0df-4678-8d65-c7df8f54aaf8">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1eec9f2d-3756-4e4f-99ae-3253677bfdfe">
+    <name>Соответствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4849309a-231e-4f34-98ea-ec9c7645ab0c">
+    <name>СписокЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список значений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

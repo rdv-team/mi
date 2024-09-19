@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53b27549-612a-41d4-9c38-250ee4515f08">
+  <producedTypes>
+    <refType typeId="27cd78b2-c876-41e2-9685-141b779c4261" valueTypeId="8e6619ef-e202-4ecc-8cab-6e2c61dcdaa0"/>
+    <listType typeId="16322053-db81-4062-be71-b80c2883198e" valueTypeId="b5934969-1228-4382-aea0-0038b1ee3e56"/>
+    <managerType typeId="9e306b38-c53b-4c52-8db3-5d87ffb1679c" valueTypeId="2d7fbc99-2c50-4de9-bc41-05f1a7e5fa13"/>
+  </producedTypes>
+  <name>рдв_ТипыВнешнихСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы внешних систем (РДВ)</value>
+  </synonym>
+  <comment>VELO-640</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы внешних систем</value>
+  </listPresentation>
+  <enumValues uuid="60ac42ec-804c-4ade-827d-e188363bfd81">
+    <name>HTTPСервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0587aa68-6d6a-4689-b829-61eebaa86cdb">
+    <name>FTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>FTP</value>
+    </synonym>
+    <comment>VELO-1205</comment>
+  </enumValues>
+</mdclass:Enum>

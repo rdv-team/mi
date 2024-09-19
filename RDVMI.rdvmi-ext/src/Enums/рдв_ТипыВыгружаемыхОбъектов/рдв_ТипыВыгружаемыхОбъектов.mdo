@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a04bf8e-1023-4271-9fd6-ad06cdaebd6e">
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a04bf8e-1023-4271-9fd6-ad06cdaebd6e">
   <producedTypes>
     <refType typeId="1aa5fffe-bd8e-4583-ab10-39c5ac041c00" valueTypeId="84c54d9d-e98b-42dc-b704-716b9d057719"/>
     <listType typeId="07a07d7d-b86f-4f3a-befa-efe1fa755352" valueTypeId="1870afb9-40b9-442a-afe3-19d17127e139"/>
@@ -10,6 +10,22 @@
     <key>ru</key>
     <value>Типы выгружаемых объектов</value>
   </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="8a4e4e76-c9b0-4133-95bd-480b4e14f6de">
