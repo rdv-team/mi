@@ -30,6 +30,15 @@
   <version>1.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="684bb36b-e901-498d-9969-c79d8f9a7805" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
   <subsystems>Subsystem.рдв_Администрирование</subsystems>
   <subsystems>Subsystem.рдв_Подсистемы</subsystems>
   <commonPictures>CommonPicture.НастроитьИнтеграциюАвтоматически</commonPictures>
