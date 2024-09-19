@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Данные сообщений интеграции (РДВ)</value>
   </synonym>
-  <comment>VELO-609</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <standardAttributes>

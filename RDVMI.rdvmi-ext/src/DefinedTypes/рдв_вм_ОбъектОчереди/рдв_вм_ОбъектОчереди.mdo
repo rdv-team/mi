@@ -8,7 +8,6 @@
     <key>ru</key>
     <value>Объект очереди (ВМ)</value>
   </synonym>
-  <comment>VELO-2385</comment>
   <type>
     <types>String</types>
     <stringQualifiers>

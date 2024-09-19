@@ -9,7 +9,6 @@
     <key>en</key>
     <value>Scheduled jobs server</value>
   </synonym>
-  <comment>VELO-625</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

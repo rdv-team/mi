@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Состояния  очередей обработки данных (РДВ)</value>
   </synonym>
-  <comment>VELO-625</comment>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>

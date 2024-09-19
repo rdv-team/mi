@@ -93,11 +93,10 @@
   <enums>Enum.рдв_ФорматыОбмена</enums>
   <enums>Enum.рдв_НаправленияСообщенийИнтеграции</enums>
   <enums>Enum.рдв_ТипыОшибокИнтеграции</enums>
-  <enums>Enum.рдв_вм_Интеграции</enums>
+  <enums>Enum.рдв_Интеграции</enums>
   <enums>Enum.рдв_ТипыЗапросовИнтеграции</enums>
   <enums>Enum.рдв_ТипыВнешнихСистем</enums>
   <enums>Enum.рдв_СостоянияОчередейОбработкиДанных</enums>
-  <enums>Enum.рдв_вм_ТипыОбъектовИнтеграции</enums>
   <enums>Enum.рдв_ВидыЗначенийНастроек</enums>
   <enums>Enum.рдв_ТипыВыгружаемыхОбъектов</enums>
   <enums>Enum.рдв_СтатусыЗапросовИнтеграции</enums>

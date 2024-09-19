@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Работа с очередями переопределяемый (РДВ)</value>
   </synonym>
-  <comment>VELO-625</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

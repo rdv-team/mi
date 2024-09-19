@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Работа с формами (РДВ)</value>
   </synonym>
-  <comment>VELO-613</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>

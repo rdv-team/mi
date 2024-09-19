@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Состояние очередей обработки данных</value>
   </synonym>
-  <comment>VELO-625</comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.рдв_СостояниеОчередейОбработкиДанных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <templates uuid="3f23bfb6-857c-4153-ade7-84edda2abda3">

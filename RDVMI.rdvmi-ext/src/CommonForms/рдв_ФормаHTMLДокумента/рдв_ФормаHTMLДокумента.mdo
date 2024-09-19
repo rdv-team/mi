@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Форма HTML документа (РДВ)</value>
   </synonym>
-  <comment>VELO-1570</comment>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
 </mdclass:CommonForm>

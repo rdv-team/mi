@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Типы очередей обработки данных  (РДВ)</value>
   </synonym>
-  <comment>VELO-625</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рдв_ТипыОчередейОбработкиДанных.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.рдв_ТипыОчередейОбработкиДанных.StandardAttribute.Code</inputByString>

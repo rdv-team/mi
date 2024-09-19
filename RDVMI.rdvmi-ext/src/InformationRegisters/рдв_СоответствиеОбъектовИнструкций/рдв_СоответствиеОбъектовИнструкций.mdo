@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Соответствие объектов и инструкций (РДВ)</value>
   </synonym>
-  <comment>VELO-1570</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <standardAttributes>

@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Работа с очередями вызов сервера (РДВ)</value>
   </synonym>
-  <comment>VELO-625</comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

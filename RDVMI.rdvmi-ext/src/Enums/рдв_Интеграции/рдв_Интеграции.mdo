@@ -5,12 +5,11 @@
     <listType typeId="1901284c-7859-4408-af2b-e3b3decca185" valueTypeId="c787441b-0084-4b8c-b178-1044ca00d61e"/>
     <managerType typeId="90a3b7c8-e2b5-4220-9f0c-9aec4deb65b9" valueTypeId="4bfe7aed-a8f0-42b7-8541-b11565832467"/>
   </producedTypes>
-  <name>рдв_вм_Интеграции</name>
+  <name>рдв_Интеграции</name>
   <synonym>
     <key>ru</key>
     <value>Интеграции (ВМ)</value>
   </synonym>
-  <comment>VELO-609</comment>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>
@@ -34,11 +33,10 @@
     <value>Интеграции</value>
   </listPresentation>
   <enumValues uuid="226062fd-bb35-4f7f-ad4d-2d45763f2ccc">
-    <name>ДилерскийПортал</name>
+    <name>рдв_Демо</name>
     <synonym>
       <key>ru</key>
-      <value>Дилерский портал</value>
+      <value>Демо (РДВ)</value>
     </synonym>
-    <comment>VELO-609</comment>
   </enumValues>
 </mdclass:Enum>

@@ -232,7 +232,6 @@
       <key>ru</key>
       <value>Обновлять повторно используемые значения</value>
     </synonym>
-    <comment>VELO-1699</comment>
     <type>
       <types>Boolean</types>
     </type>

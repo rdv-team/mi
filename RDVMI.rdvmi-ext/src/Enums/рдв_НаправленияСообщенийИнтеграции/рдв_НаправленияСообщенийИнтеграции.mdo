@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Направления сообщений интеграции (РДВ)</value>
   </synonym>
-  <comment>VELO-640</comment>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>

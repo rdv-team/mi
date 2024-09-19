@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Очереди обработки данных (РДВ)</value>
   </synonym>
-  <comment>VELO-625</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.рдв_ОчередиОбработкиДанных.Form.ФормаЗаписи</defaultRecordForm>
@@ -312,7 +311,6 @@
       <key>ru</key>
       <value>Объект</value>
     </synonym>
-    <comment>VELO-624, VELO-709, VELO-618, VELO-605, VELO-609, VELO-610, VELO-612, VELO-614, VELO-664, VELO-611, VELO-603, VELO-775, VELO-773, VELO-917, VELO-940, VELO-890, VELO-892, VELO-1584, VELO-1789, VELO-2385</comment>
     <type>
       <types>AnyRef</types>
     </type>

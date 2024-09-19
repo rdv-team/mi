@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Ошибки интеграции (РДВ)</value>
   </synonym>
-  <comment>VELO-640</comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.рдв_ОшибкиИнтеграции.Form.ФормаЗаписи</defaultRecordForm>
@@ -134,7 +133,7 @@
       <value>Интеграция</value>
     </synonym>
     <type>
-      <types>EnumRef.рдв_вм_Интеграции</types>
+      <types>EnumRef.рдв_Интеграции</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

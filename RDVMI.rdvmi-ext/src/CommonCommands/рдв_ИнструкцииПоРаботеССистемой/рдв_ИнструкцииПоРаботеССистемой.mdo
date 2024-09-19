@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Инструкции по работе с системой (РДВ)</value>
   </synonym>
-  <comment>VELO-1570</comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>

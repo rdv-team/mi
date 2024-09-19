@@ -362,7 +362,6 @@
       <key>ru</key>
       <value>Объект</value>
     </synonym>
-    <comment>VELO-2385</comment>
     <type>
       <types>DefinedType.рдв_вм_ОбъектОчереди</types>
     </type>

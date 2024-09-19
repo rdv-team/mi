@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Подсистемы (РДВ)</value>
   </synonym>
-  <comment>VELO-1570</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <content>fdb012c9-583a-42af-95da-070e75a58078</content>
   <content>CommonModule.рдв_ОбщегоНазначения</content>

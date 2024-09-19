@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Настройки</value>
   </synonym>
-  <comment>VELO-741</comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</content>

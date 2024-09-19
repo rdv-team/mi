@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Чтение JSON (РДВ)</value>
   </synonym>
-  <comment>VELO-609</comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
 </mdclass:CommonModule>

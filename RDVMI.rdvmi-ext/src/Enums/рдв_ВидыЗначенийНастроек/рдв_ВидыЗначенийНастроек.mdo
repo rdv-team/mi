@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Виды значений настроек (РДВ)</value>
   </synonym>
-  <comment>VELO-613</comment>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Order</name>

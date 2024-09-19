@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Работа с инструкциями вызов сервера (РДВ)</value>
   </synonym>
-  <comment>VELO-1570</comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>
