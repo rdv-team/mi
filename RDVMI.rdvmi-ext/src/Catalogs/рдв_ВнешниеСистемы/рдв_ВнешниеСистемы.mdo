@@ -238,25 +238,31 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5c156a0d-b0ae-48e6-88d2-7ee6223f05fd">
-    <name>РегламентноеЗаданиеGUID</name>
+  <attributes uuid="8f002a9f-fd76-4313-8706-6d5056b3d10d">
+    <name>ОчередьОбмена</name>
     <synonym>
       <key>ru</key>
-      <value>Регламентное задание GUID</value>
+      <value>Очередь обмена</value>
     </synonym>
     <type>
-      <types>UUID</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="cdc0a5d3-7f99-4401-b75c-358aca693a47">
-    <name>ИмяПользователяРегламента</name>
+    <name>ИмяПользователяРегламентаПолучение</name>
     <synonym>
       <key>ru</key>
-      <value>Имя пользователя регламента</value>
+      <value>Имя пользователя регламента получение</value>
     </synonym>
     <type>
       <types>String</types>
@@ -270,6 +276,54 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="42e4bc90-32af-4397-970b-19d3872f8eb2">
+    <name>РегламентноеЗаданиеGUIDПолучение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание GUIDПолучение</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea2fec84-0f8f-4fc7-989d-9d8cea85c511">
+    <name>ИмяПользователяРегламентаОтправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя регламента отправка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="813733a4-8674-4cb2-9e6d-45ae2fcb5d40">
+    <name>РегламентноеЗаданиеGUIDотправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание GUIDотправка</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="f9417838-e878-4ab6-9791-7106237d80d6">

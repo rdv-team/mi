@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c595bd23-4642-4184-8bfe-8e3380493fdd">
-  <name>рдв_ЗапускИнтеграции</name>
+  <name>рдв_ЗапускИнтеграцииОтправка</name>
   <synonym>
     <key>ru</key>
-    <value>Запуск интеграции (РДВ)</value>
+    <value>Запуск интеграции отправка (РДВ)</value>
   </synonym>
-  <methodName>CommonModule.рдв_Интеграция.РегламентЗапускаИнтеграции</methodName>
+  <methodName>CommonModule.рдв_Интеграция.РегламентЗапускаИнтеграцииОтправка</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

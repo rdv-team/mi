@@ -42,6 +42,7 @@
   <subsystems>Subsystem.рдв_Администрирование</subsystems>
   <subsystems>Subsystem.рдв_Подсистемы</subsystems>
   <commonPictures>CommonPicture.НастроитьИнтеграциюАвтоматически</commonPictures>
+  <commonTemplates>CommonTemplate.рдв_КомпонентаПауза</commonTemplates>
   <commonModules>CommonModule.рдв_Интеграция</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбмена</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбменаПереопределяемый</commonModules>
@@ -74,13 +75,16 @@
   <commonModules>CommonModule.рдв_РегламентныеЗаданияКлиентСервер</commonModules>
   <commonModules>CommonModule.рдв_РегламентныеЗаданияПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_ЧтениеJSON</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСRMQ</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСRMQПереопределяемый</commonModules>
   <httpServices>HTTPService.рдв_Интеграция</httpServices>
   <eventSubscriptions>EventSubscription.рдв_СправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ДокументыПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_НаборыЗаписейПриЗаписи</eventSubscriptions>
   <scheduledJobs>ScheduledJob.рдв_ОчисткаЖурналаОчередейОбработкиДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускОчередейОбработкиДанных</scheduledJobs>
-  <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграции</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииОтправка</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииПолучение</scheduledJobs>
   <definedTypes>DefinedType.рдв_вм_ОбъектОчереди</definedTypes>
   <commonCommands>CommonCommand.рдв_ИнструкцииПоРаботеССистемой</commonCommands>
   <commonForms>CommonForm.рдв_ФормаHTMLДокумента</commonForms>
@@ -102,6 +106,7 @@
   <enums>Enum.рдв_СтатусыЗапросовИнтеграции</enums>
   <enums>Enum.рдв_СтатусыРегистрацииИзменений</enums>
   <reports>Report.рдв_СостояниеОчередейОбработкиДанных</reports>
+  <dataProcessors>DataProcessor.рдв_КомпонентаRabbitMQ</dataProcessors>
   <informationRegisters>InformationRegister.рдв_ДанныеСообщенийИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ЖурналОчередейОбработкиДанных</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ОбъектыСообщенийИнтеграции</informationRegisters>

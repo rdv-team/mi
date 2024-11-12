@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9af8610-7760-4eea-89b1-91629dc1ba9f">
+  <name>рдв_ЗапускИнтеграцииПолучение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запуск интеграции получение (РДВ)</value>
+  </synonym>
+  <methodName>CommonModule.рдв_Интеграция.РегламентЗапускаИнтеграцииПолучение</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

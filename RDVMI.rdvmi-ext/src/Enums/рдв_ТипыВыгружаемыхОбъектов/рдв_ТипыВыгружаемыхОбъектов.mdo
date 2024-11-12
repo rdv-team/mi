@@ -42,6 +42,13 @@
       <value>Набор записей</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="19151ad8-7833-46ec-90f1-add153453594">
+    <name>ПодтверждениеПолучения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение получения</value>
+    </synonym>
+  </enumValues>
   <enumValues uuid="8e24e167-e57f-445b-a20f-aaac6a7f535e">
     <name>Произвольный</name>
     <synonym>

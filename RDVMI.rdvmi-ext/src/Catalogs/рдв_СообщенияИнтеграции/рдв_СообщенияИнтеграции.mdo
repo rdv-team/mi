@@ -316,6 +316,24 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="72f81ee8-aa65-41ed-b13f-203cc10d55ce">
+    <name>ИдентификаторСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f5b98640-aa8e-43f0-bebb-46d8640ba11a">
     <producedTypes>
       <objectType typeId="066db51c-f3b5-4204-b277-a2b7523fa3d5" valueTypeId="8a776881-4fc6-47f7-904e-094106aebceb"/>
