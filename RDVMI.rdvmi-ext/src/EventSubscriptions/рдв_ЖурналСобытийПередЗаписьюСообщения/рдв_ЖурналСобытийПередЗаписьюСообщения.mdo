@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6741c64-a4f1-4af5-ad0a-480f1905e08f">
+  <name>рдв_ЖурналСобытийПередЗаписьюСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал событий перед записью сообщения</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.рдв_СообщенияИнтеграции</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.рдв_ЖурналСобытий.рдв_ЖурналСобытийПередЗаписьюСообщенияПередЗаписью</handler>
+</mdclass:EventSubscription>

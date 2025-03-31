@@ -77,10 +77,16 @@
   <commonModules>CommonModule.рдв_ЧтениеJSON</commonModules>
   <commonModules>CommonModule.рдв_РаботаСRMQ</commonModules>
   <commonModules>CommonModule.рдв_РаботаСRMQПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ЖурналСобытий</commonModules>
+  <commonModules>CommonModule.рдв_МодульИнтеграцииДемо</commonModules>
   <httpServices>HTTPService.рдв_Интеграция</httpServices>
   <eventSubscriptions>EventSubscription.рдв_СправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ДокументыПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_НаборыЗаписейПриЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПриЗаписиОчереди</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПриЗаписиРегистрации</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПриЗаписиСообщения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПередЗаписьюСообщения</eventSubscriptions>
   <scheduledJobs>ScheduledJob.рдв_ОчисткаЖурналаОчередейОбработкиДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускОчередейОбработкиДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииОтправка</scheduledJobs>
@@ -105,6 +111,7 @@
   <enums>Enum.рдв_ТипыВыгружаемыхОбъектов</enums>
   <enums>Enum.рдв_СтатусыЗапросовИнтеграции</enums>
   <enums>Enum.рдв_СтатусыРегистрацииИзменений</enums>
+  <enums>Enum.рдв_События</enums>
   <reports>Report.рдв_СостояниеОчередейОбработкиДанных</reports>
   <dataProcessors>DataProcessor.рдв_КомпонентаRabbitMQ</dataProcessors>
   <informationRegisters>InformationRegister.рдв_ДанныеСообщенийИнтеграции</informationRegisters>
@@ -114,5 +121,6 @@
   <informationRegisters>InformationRegister.рдв_ОшибкиИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.рдв_РегистрацияИзменений</informationRegisters>
   <informationRegisters>InformationRegister.рдв_СоответствиеОбъектовИнструкций</informationRegisters>
+  <informationRegisters>InformationRegister.рдв_ЖурналСобытий</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

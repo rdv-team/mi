@@ -16,5 +16,6 @@
   <content>Catalog.рдв_ВнешниеСистемы</content>
   <content>Catalog.рдв_СообщенияИнтеграции</content>
   <content>InformationRegister.рдв_РегистрацияИзменений</content>
+  <content>InformationRegister.рдв_ЖурналСобытий</content>
   <parentSubsystem>Subsystem.рдв_Администрирование</parentSubsystem>
 </mdclass:Subsystem>

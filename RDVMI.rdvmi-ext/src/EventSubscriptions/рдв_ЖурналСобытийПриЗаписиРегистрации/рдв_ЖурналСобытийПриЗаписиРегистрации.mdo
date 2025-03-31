@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e112f48b-08f4-4398-9cb6-964c0feacd09">
+  <name>рдв_ЖурналСобытийПриЗаписиРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал событий при записи регистрации</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.рдв_РегистрацияИзменений</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.рдв_ЖурналСобытий.рдв_ЖурналСобытийПриЗаписиРегистрацииПриЗаписи</handler>
+</mdclass:EventSubscription>

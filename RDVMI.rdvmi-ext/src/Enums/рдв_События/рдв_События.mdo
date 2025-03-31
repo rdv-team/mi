@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c62cd61-3a2d-4691-aa66-bba13fc2a4cf">
+  <producedTypes>
+    <refType typeId="96ea480f-34d2-4a66-8aa6-ca56b46c533c" valueTypeId="766b829e-9763-4df7-bcb9-5d38f9a7d7b3"/>
+    <listType typeId="18a6678d-687b-4c57-9595-99bdba359d8c" valueTypeId="275aedbc-52b9-4d26-bf36-9202112dfe76"/>
+    <managerType typeId="0453d435-6efe-4459-b96a-29200aae0deb" valueTypeId="e330572d-e6af-430b-b377-0db3796bd350"/>
+  </producedTypes>
+  <name>рдв_События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6c561a7a-7b4a-419c-a441-0c5e0c9721a2">
+    <name>ДобавленВОчередь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлен в очередь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3ed7aab-46e9-4730-a036-9337e9f3ea71">
+    <name>ЗарегистрированоИзменение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано изменение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8437af8f-faf6-44e6-873e-ac90916470f7">
+    <name>ИсходящееСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящее сообщение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="667a6df4-e072-48df-a7b3-670021f84b90">
+    <name>ВходящееСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящее сообщение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

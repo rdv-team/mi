@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22572a31-7a69-4642-ab72-e6edb3806bdb">
+  <producedTypes>
+    <selectionType typeId="9a1e3717-74e8-4ba2-89f3-8624b245540e" valueTypeId="c1634534-63d2-4180-8ce1-44e69d8a407f"/>
+    <listType typeId="720fafb0-f2c5-4892-a1d2-419e940c16f1" valueTypeId="5f4e2ec4-b785-4d5a-9b7a-a5de45e9a86e"/>
+    <managerType typeId="1ece9550-00c4-42f2-8c69-fec354d4036b" valueTypeId="c55283b5-ae07-4e5f-869c-84467862a854"/>
+    <recordSetType typeId="1c1d901f-0771-46e1-aeb0-214a62000c6f" valueTypeId="7e3c34f4-1fa1-4dc3-8cad-ec616acf5aa7"/>
+    <recordKeyType typeId="f37d4e84-2924-4a40-b825-d3448a2fa518" valueTypeId="1c62f246-766a-4099-a885-ae7b7ba6e521"/>
+    <recordType typeId="0ab3f00e-adca-41b3-a0ac-1ecba240b2f3" valueTypeId="8a700cee-37ed-4ff1-8de4-4b1d4dd60d7d"/>
+    <recordManagerType typeId="99e43c12-ef3f-4e2a-8482-9b80951bd684" valueTypeId="8acc806b-dd9b-43d3-871e-91fb78d353d5"/>
+  </producedTypes>
+  <name>рдв_ЖурналСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал событий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="aa7207b8-6440-4639-88d5-ea8aa5e584cc">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a7f5a72e-5e6d-4879-ae8a-fcce3bc6abd5">
+    <name>СообщениеИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение интеграции</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_СообщенияИнтеграции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1ffadb08-b499-4bf5-9e0e-770e2f89daf6">
+    <name>ИдентификаторСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7da61b9e-d15f-420f-b6d5-db5d747ef6e9">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="54f1edbc-55ab-4c84-a8a3-badddaf6a06b">
+    <name>ВыгружаемыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружаемый объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВыгружаемыеОбъекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b54b8507-c021-466d-909b-e8f49fdb88db">
+    <name>СсылкаНаОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3c7554a9-ce32-43bb-b1ab-5864347f65b2">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.рдв_События</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4ec72d7a-ff3c-4f37-b199-77e4683572a5">
+    <name>ВнешняяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВнешниеСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

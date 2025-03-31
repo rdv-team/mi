@@ -334,6 +334,21 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7fe25ab1-eede-44a2-84bc-2ac35eda1b0a">
+    <name>ВнешняяСистема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВнешниеСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f5b98640-aa8e-43f0-bebb-46d8640ba11a">
     <producedTypes>
       <objectType typeId="066db51c-f3b5-4204-b277-a2b7523fa3d5" valueTypeId="8a776881-4fc6-47f7-904e-094106aebceb"/>

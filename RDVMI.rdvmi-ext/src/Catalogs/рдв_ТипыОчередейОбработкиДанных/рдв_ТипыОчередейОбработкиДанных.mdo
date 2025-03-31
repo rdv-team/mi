@@ -600,6 +600,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="7a111984-6ef7-4f42-8009-c7e39c597dc5">
+    <name>ВестиЖурналСобытий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести журнал событий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="c444be08-c989-4d75-836f-d4249440a0c1">
     <name>ФормаЭлемента</name>
     <synonym>
