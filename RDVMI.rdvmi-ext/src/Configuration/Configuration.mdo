@@ -79,6 +79,7 @@
   <commonModules>CommonModule.рдв_РаботаСRMQПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_ЖурналСобытий</commonModules>
   <commonModules>CommonModule.рдв_МодульИнтеграцииДемо</commonModules>
+  <commonModules>CommonModule.рдв_МодульИнтеграцииДемоПовтИсп</commonModules>
   <httpServices>HTTPService.рдв_Интеграция</httpServices>
   <eventSubscriptions>EventSubscription.рдв_СправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ДокументыПриЗаписи</eventSubscriptions>
