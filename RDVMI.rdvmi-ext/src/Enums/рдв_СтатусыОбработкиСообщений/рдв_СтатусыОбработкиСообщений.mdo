@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ede0503-e950-4423-8d60-fc37bd7f6746">
+  <producedTypes>
+    <refType typeId="f6e64596-6509-4724-8beb-c81e4ddfe60f" valueTypeId="4c258a83-3c2e-4d3b-9ed2-c8f6ed961b8a"/>
+    <listType typeId="65612201-a81b-4868-88e6-24956e651603" valueTypeId="6e82e94d-a283-4c64-bae9-9f5dbb4c85d0"/>
+    <managerType typeId="67b50c40-b183-4a40-8c75-910a7d34658e" valueTypeId="8da67d66-d1aa-435f-b0be-76d676be4057"/>
+  </producedTypes>
+  <name>рдв_СтатусыОбработкиСообщений</name>
+  <synonym>
+    <key></key>
+    <value>Рдв статусы обработки сообщений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="19045c59-a164-4a8f-9b51-bf1223ee0470">
+    <name>Обработано</name>
+    <synonym>
+      <key></key>
+      <value>Обработано</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Обработано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fe2ab8c-7afe-482c-a229-39937aac6f95">
+    <name>КОбработке</name>
+    <synonym>
+      <key></key>
+      <value>К обработке</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>К обработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cacac3fd-b7b1-41e3-954d-bc1ca2400a0c">
+    <name>Ошибка</name>
+    <synonym>
+      <key></key>
+      <value>Ошибка</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

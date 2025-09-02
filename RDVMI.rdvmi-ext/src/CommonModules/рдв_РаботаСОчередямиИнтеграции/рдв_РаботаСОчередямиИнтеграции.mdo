@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0649c1f-26f0-40c5-b6d7-6c74d19d31bf">
+  <name>рдв_РаботаСОчередямиИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с очередями инетграции (РДВ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

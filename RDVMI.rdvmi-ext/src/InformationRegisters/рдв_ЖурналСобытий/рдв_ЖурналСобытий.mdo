@@ -12,11 +12,19 @@
   <name>рдв_ЖурналСобытий</name>
   <synonym>
     <key>ru</key>
-    <value>Журнал событий</value>
+    <value>Журнал событий (РДВ)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Журнал событий</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Журнал событий</value>
+  </listPresentation>
   <resources uuid="aa7207b8-6440-4639-88d5-ea8aa5e584cc">
     <name>ДатаСобытия</name>
     <synonym>
@@ -26,21 +34,6 @@
     <type>
       <types>Date</types>
       <dateQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="a7f5a72e-5e6d-4879-ae8a-fcce3bc6abd5">
-    <name>СообщениеИнтеграции</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сообщение интеграции</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.рдв_СообщенияИнтеграции</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -149,6 +142,24 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="181b0f44-19b6-471f-9c2b-2e75c1fbc243">
+    <name>ДатаЗаписиНачалоЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи начало часа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>

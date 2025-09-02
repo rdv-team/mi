@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c9eb121-ee33-4d2f-821e-18c1cc47dcff">
+  <producedTypes>
+    <selectionType typeId="7b6339f3-8aca-416d-b65a-a635ef049639" valueTypeId="2b7d3c7d-8e6b-4402-8622-45c2849e49d5"/>
+    <listType typeId="a31b8fca-677a-4452-9efa-4edf1f0126b9" valueTypeId="11ad2b21-dbdf-4a15-a79e-8e63e396aad5"/>
+    <managerType typeId="2230f63f-edc4-46ea-b286-c838261469a1" valueTypeId="13825f77-7e59-4876-a2c6-8a03ec96a55d"/>
+    <recordSetType typeId="6b6eb089-7350-4076-b82b-82e469a3fce3" valueTypeId="087dc827-63d8-4a51-977e-e799c96473ec"/>
+    <recordKeyType typeId="5684a01f-ae58-4802-93a9-7a8d126c2502" valueTypeId="182814db-4c14-4ae4-ac23-3638ce3e6781"/>
+    <recordType typeId="9f8421c1-d408-4592-bad4-a3b66d8e5469" valueTypeId="3d1c2e42-e499-4814-83ba-6c3b508e7c3c"/>
+    <recordManagerType typeId="70a6a066-bfdd-42da-a005-6759878730b0" valueTypeId="ed1defdd-fa4e-4ed9-affa-6a23f1485b1c"/>
+  </producedTypes>
+  <name>рдв_ИдентификаторыОбъектовИсточника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы объектов источника (РДВ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Идентификаторы объектов источника</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Идентификаторы объектов источника</value>
+  </listPresentation>
+  <resources uuid="3a2439bc-e7af-4fd7-b5c3-3f421a2b6b68">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>38</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="d5eaf7f4-f0e2-457e-a40a-08c9594eac15">
+    <name>ПолноеИмяИсточника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="edacadb5-decf-44ca-99fc-0f4bf262c74e">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b09f380f-a1f0-43b8-a864-92be2bd40bc9">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

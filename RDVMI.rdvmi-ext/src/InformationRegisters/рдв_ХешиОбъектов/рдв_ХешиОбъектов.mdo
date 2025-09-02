@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78f170cc-d72b-417c-aa6e-25b9c5fc0c5d">
+  <producedTypes>
+    <selectionType typeId="a55244b7-5894-4420-b3fb-05ad08810d38" valueTypeId="57492262-4b35-40ca-a6a8-c496eb5ad083"/>
+    <listType typeId="eff2caee-3315-49a2-b073-0f71d8093364" valueTypeId="c6d4dc9c-4c9e-4156-a003-c467dc615187"/>
+    <managerType typeId="6f7d87cf-3eba-4a4c-8189-2369c1b50c16" valueTypeId="23ed3ebd-c77f-417a-b015-06771a9516fd"/>
+    <recordSetType typeId="1a8d7a36-f054-41b2-b158-6968145e85c9" valueTypeId="e1e6fbbe-5fcc-4ea4-ab8b-932bee600cca"/>
+    <recordKeyType typeId="d1deeca0-e63b-467c-9479-bc42e306ea54" valueTypeId="4ed0d456-372b-4285-b075-e9f322832ca9"/>
+    <recordType typeId="d02621cd-e0e7-4514-b423-ac515a5a95eb" valueTypeId="c524d06a-8abd-4c8c-9e17-bc73509edbdd"/>
+    <recordManagerType typeId="158ed57f-d96e-4e3c-b572-9e5102c93cbd" valueTypeId="7a2578a4-a686-4fe1-a6d0-64b211c9a7f9"/>
+  </producedTypes>
+  <name>рдв_ХешиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хеши объектов (РДВ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Хеши объектов</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Хеши объектов</value>
+  </listPresentation>
+  <resources uuid="894a2a6a-b498-4f76-b453-00440c9aadb1">
+    <name>Хеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рдв_ХешТип</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ee344e1e-11bc-4e33-8ae7-b3649471062f">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рдв_ХешируемыйОбъект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="80fcf254-af37-453e-9fcd-63ba27a3aa81">
+    <name>ВидХеша</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид хеша</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВидыХешей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

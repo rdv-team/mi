@@ -112,15 +112,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="7654fea3-ba88-48ee-a568-65fa20533940">
-      <name>рдв_Демо</name>
-      <description>Демо (РДВ)</description>
-      <code xsi:type="core:StringValue">
-        <value>000000001</value>
-      </code>
-    </items>
-  </predefined>
+  <predefined/>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.рдв_ВнешниеСистемы.Form.ФормаЭлемента</defaultObjectForm>
@@ -178,30 +170,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e8ca4420-6d59-46af-a759-d61fa2933743">
-    <name>АдресСервиса</name>
-    <synonym>
-      <key>ru</key>
-      <value>Адрес сервиса</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>250</length>
-      </stringQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Базовый адрес сервисов, например, для 1С: &quot;/&lt;Адрес публикации ИБ>/hs&quot;</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="054e10a8-83c8-4d18-af71-4476f2618920">
     <name>ЗащищенноеСоединение</name>
     <synonym>
@@ -214,47 +182,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="34f206f6-3d05-4195-a94c-47655f13218e">
-    <name>ТокенАвторизации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Токен авторизации</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <passwordMode>true</passwordMode>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8f002a9f-fd76-4313-8706-6d5056b3d10d">
-    <name>ОчередьОбмена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Очередь обмена</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -326,6 +253,101 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="102f2f51-be12-4b00-98ff-a14f9d91cf38">
+    <name>ДополнительныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97d761e4-93ac-4cc8-95b8-816a7a886f6c">
+    <name>ДержатьСоединениеОткрытым</name>
+    <synonym>
+      <key></key>
+      <value>Держать соединение открытым</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Держать соединение открытым</value>
+    </synonym>
+    <comment>Все сообщения отправляются в рамках одного соединения</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d7184696-28a2-46da-91ea-f4b3f5de0089">
+    <name>ВремяОткрытогоСоединения</name>
+    <synonym>
+      <key></key>
+      <value>Время открытого соединения</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время открытого соединения (сек)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>600000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3b02389f-3772-4a2d-9600-33b7b2173e01">
+    <name>ОжидатьДоСледующейПорции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидать до следующей порции (сек)</value>
+    </synonym>
+    <comment>Если установлен признак ДержатьСоединениеОткрытым, то после отправки данных будет установлена пауза на указанное значение</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>3</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dfb00074-046d-4220-900e-ab2ad4779fa4">
+    <name>рдв_Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор (РДВ)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рдв_ПредопределенныеДанныеТип</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f9417838-e878-4ab6-9791-7106237d80d6">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -344,4 +366,27 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="b771cab1-ba8b-4bbb-980e-e54418becd4f">
+    <name>ФормаДополнительныеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма дополнительные настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="540722c1-ebc7-43eb-b97c-84e068e77160">
+    <name>ПредопределенныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные данные</value>
+    </synonym>
+  </templates>
+  <templates uuid="c5a6777c-d095-4ebc-a558-fdc36fc8d996">
+    <name>ПредопределенныеДанныеДемо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные данные демо</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>

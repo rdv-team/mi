@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f6a3eb6-d0fa-4b24-95dc-a575a1de418c">
+  <producedTypes>
+    <managerType typeId="fe4fea86-aa59-4193-a344-4fb155edf2f6" valueTypeId="8f2a969e-3c19-4880-a47c-fbc308c54f0a"/>
+    <valueManagerType typeId="56a62e92-5a7d-4c10-b370-6e587e14b643" valueTypeId="6ad839b7-0a26-44ed-bb7e-6b1a5de9cb22"/>
+    <valueKeyType typeId="4b134981-527f-4efc-b0a0-2423afe9dafb" valueTypeId="f3b5f0aa-d681-4249-9f27-d80a391393cc"/>
+  </producedTypes>
+  <name>рдв_ФормироватьХешОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формировать хеш объектов (РДВ)</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

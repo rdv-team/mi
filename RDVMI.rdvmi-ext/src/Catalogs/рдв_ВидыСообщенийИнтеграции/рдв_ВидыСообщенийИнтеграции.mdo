@@ -10,7 +10,7 @@
   <name>рдв_ВидыСообщенийИнтеграции</name>
   <synonym>
     <key>ru</key>
-    <value>Виды сообщений интеграции</value>
+    <value>Виды сообщений интеграции (РДВ)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рдв_ВидыСообщенийИнтеграции.StandardAttribute.Description</inputByString>
@@ -107,10 +107,17 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды сообщений интеграции</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды сообщений интеграции</value>
+  </listPresentation>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.рдв_ИнтерфейсыИнтеграции</owners>
   <codeLength>9</codeLength>
   <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
@@ -158,6 +165,39 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="55e094f2-53cb-48fd-be96-78bb611c209f">
+    <name>РазмерПорцииДляВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер порции для выгрузки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be7f7734-269a-43dc-87c1-958957e844b5">
+    <name>рдв_Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор (РДВ)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рдв_ПредопределенныеДанныеТип</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="8aa994c5-f9ae-41b0-980c-ba676d8b4063">
     <name>ФормаЭлемента</name>
     <synonym>
@@ -176,4 +216,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="f848219d-1764-4e72-9432-03d2c44b09cd">
+    <name>ПредопределенныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные данные</value>
+    </synonym>
+  </templates>
 </mdclass:Catalog>

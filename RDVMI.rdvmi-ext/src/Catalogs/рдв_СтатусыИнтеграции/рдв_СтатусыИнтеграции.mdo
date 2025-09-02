@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2055651-d557-413a-9808-2ece9034191f">
+  <producedTypes>
+    <objectType typeId="696e44f5-00fc-46f7-aeba-35c54ad3fcf0" valueTypeId="8e16cd0a-d5d6-4dc8-937b-44888cec43c9"/>
+    <refType typeId="9de77513-37a7-43e5-9492-1fe1170ec7b2" valueTypeId="106376ae-8a27-46db-b91c-2f20e7ff5c9b"/>
+    <selectionType typeId="b6cf9c0d-6a7d-4dc6-baba-d27cf87e16ba" valueTypeId="6128f5df-b90a-43b0-921e-62cfd202520f"/>
+    <listType typeId="73eda847-9fb8-4d76-8f1f-d01c2ff02199" valueTypeId="c5b4ead1-8fca-4589-ba85-a2dd915116af"/>
+    <managerType typeId="5ab72a82-4843-4696-8817-9d6166e6f5d8" valueTypeId="8d369553-3012-41ac-9a6d-4e8ebf1b1415"/>
+  </producedTypes>
+  <name>рдв_СтатусыИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы интеграции (РДВ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рдв_СтатусыИнтеграции.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.рдв_СтатусыИнтеграции.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статусы интеграции</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статусы интеграции</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8951b263-fad8-4846-8287-3c0d1996bdbd">
+      <name>ACK_RECEIVED</name>
+      <description>ACK RECEIVED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="2fd7a365-3913-49ff-89f9-941d94827fab">
+      <name>BROKER_UNAVAILABLE</name>
+      <description>BROKER UNAVAILABLE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+    </items>
+    <items id="b9a0389b-d541-4085-90ff-a3897b728ec9">
+      <name>DEAD_LETTERED</name>
+      <description>DEAD LETTERED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+    </items>
+    <items id="6e0e33e1-bd6c-4605-8e76-0aafd8495e7c">
+      <name>DUPLICATE</name>
+      <description>DUPLICATE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+    </items>
+    <items id="b113dd26-0771-445e-930b-1d603df047e5">
+      <name>EXPIRED</name>
+      <description>EXPIRED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000023</value>
+      </code>
+    </items>
+    <items id="b51dbd98-2810-4b53-8eb4-8b93052ef5c0">
+      <name>FAILURE</name>
+      <description>FAILURE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+    </items>
+    <items id="05628908-5a11-456b-bced-d6df1293ad96">
+      <name>FORBIDDEN</name>
+      <description>FORBIDDEN</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="78740735-cffc-4fa6-9952-67d741cc1cd4">
+      <name>INTERNAL_ERROR</name>
+      <description>INTERNAL ERROR</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+    </items>
+    <items id="3fa6aa2e-fb45-4b87-a77a-c975eda3dfa4">
+      <name>INVALID_PAYLOAD</name>
+      <description>INVALID PAYLOAD</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="f2f446db-cd95-4a9f-97d9-fe798d831a53">
+      <name>MESSAGE_REJECTED</name>
+      <description>MESSAGE REJECTED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+    </items>
+    <items id="ae455023-b905-4f97-80e4-ffc16d30abc4">
+      <name>NACK_RECEIVED</name>
+      <description>NACK RECEIVED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+    </items>
+    <items id="7e8695a9-2193-4d9d-9d9a-6709ccc5e92d">
+      <name>NO_ACTION_NEEDED</name>
+      <description>NO ACTION NEEDED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="3afa0c1f-1ba4-426a-9f05-a95455b14996">
+      <name>NOT_FOUND</name>
+      <description>NOT FOUND</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="b73f2392-5464-4d15-90fb-a7b66a0c6b7e">
+      <name>PENDING</name>
+      <description>PENDING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="03778fae-ce8b-4f9d-bf0a-5724a7bce1d0">
+      <name>PROCESSED</name>
+      <description>PROCESSED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="4ca4dd6f-db41-42ed-8e0e-dc9e607dcffd">
+      <name>QUEUED</name>
+      <description>QUEUED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="6c27959c-d6fc-4d4d-98f5-51331b7627e1">
+      <name>REDELIVERED</name>
+      <description>REDELIVERED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000021</value>
+      </code>
+    </items>
+    <items id="df1d7ea7-7597-48c6-98db-8dc9dc4ca4bd">
+      <name>RETRYING</name>
+      <description>RETRYING</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="4d61c1cc-638f-4205-89ed-78cb84631bc4">
+      <name>SKIPPED</name>
+      <description>SKIPPED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000022</value>
+      </code>
+    </items>
+    <items id="dd20c0b8-8612-42f6-9690-534c298e4069">
+      <name>SUCCESS</name>
+      <description>SUCCESS</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="6ecd6e31-cd5c-4c06-a0f7-70684343cd94">
+      <name>TIMEOUT</name>
+      <description>TIMEOUT</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+    </items>
+    <items id="4eea258a-2703-448e-b841-052aebc1b99e">
+      <name>TOO_LARGE</name>
+      <description>TOO LARGE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000025</value>
+      </code>
+    </items>
+    <items id="25852661-b12a-4bca-8158-9b354b433393">
+      <name>UNAUTHORIZED</name>
+      <description>UNAUTHORIZED</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="37b7819f-a0bf-461a-b03e-d1ec7bc5d94d">
+      <name>UNSUPPORTED_TYPE</name>
+      <description>UNSUPPORTED TYPE</description>
+      <code xsi:type="core:StringValue">
+        <value>000000024</value>
+      </code>
+    </items>
+    <items id="fa32c6fd-af5d-4f4f-8a89-4bdd4ceccf7e">
+      <name>WAITING_ACK</name>
+      <description>WAITING ACK</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <templates uuid="e8fd67c1-cca1-4d4b-841b-6d66c3c59fce">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

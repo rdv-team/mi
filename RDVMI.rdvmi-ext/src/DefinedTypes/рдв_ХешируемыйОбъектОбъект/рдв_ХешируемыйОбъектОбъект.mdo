@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52eb672b-d621-4d25-8cda-63d86afc7e06">
+  <producedTypes>
+    <containerType typeId="7c23afb2-f560-4045-abd8-05625ff9f51c" valueTypeId="da82e9ec-c998-4b86-9c2c-da083acc3e7e"/>
+  </producedTypes>
+  <name>рдв_ХешируемыйОбъектОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хешируемый объект объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.рдв_ВыгружаемыеОбъекты</types>
+  </type>
+</mdclass:DefinedType>

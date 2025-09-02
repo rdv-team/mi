@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31a4ac55-1e5c-493d-82b2-ff8fbcd49702">
+  <producedTypes>
+    <objectType typeId="ac46257e-94d4-4cc5-a455-93700fdfa91d" valueTypeId="1d7899ff-7b57-49dd-b48e-52e2063748cb"/>
+    <refType typeId="f7a98aa1-66f5-4a35-aa37-f4beebb45abb" valueTypeId="c0f6293d-901a-440f-b57d-2d075eb1864a"/>
+    <selectionType typeId="b3fbdde0-ec61-4b0c-af92-134c94dec6f5" valueTypeId="d8bce96f-c92a-459a-a67d-9b9b1e61ac7d"/>
+    <listType typeId="d921edd1-eaed-4d7e-b33c-2226c3229b75" valueTypeId="ca8d40b2-9653-44e7-a3a3-9f5dad0258a6"/>
+    <managerType typeId="defdf0b8-7bb2-4b8f-ba49-1344914e174f" valueTypeId="b7495757-8007-4a1e-bdb5-af66c5879def"/>
+  </producedTypes>
+  <name>рдв_ИнформационныеБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информационные базы (РДВ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рдв_ИнформационныеБазы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.рдв_ИнформационныеБазы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Информационные базы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3177b580-c385-418c-a04b-8edee3f193f3">
+    <name>рдв_Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор (РДВ)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рдв_ПредопределенныеДанныеТип</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <templates uuid="434f2d1c-d006-456c-a309-b1c75de3875c">
+    <name>ПредопределенныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные данные</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

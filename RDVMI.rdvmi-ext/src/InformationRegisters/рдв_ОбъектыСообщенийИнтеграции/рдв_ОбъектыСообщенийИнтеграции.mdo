@@ -74,22 +74,23 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <dimensions uuid="e13bed8e-b2f8-4123-bfb1-f4738d104294">
-    <name>СообщениеИнтеграции</name>
+  <dimensions uuid="7f4ce9d9-fbf8-4229-88fe-652e5378ced6">
+    <name>ИдентификаторСообщения</name>
     <synonym>
       <key>ru</key>
-      <value>Сообщение интеграции</value>
+      <value>Идентификатор сообщения</value>
     </synonym>
     <type>
-      <types>CatalogRef.рдв_СообщенияИнтеграции</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
-    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
   <dimensions uuid="978a6a69-b740-435a-93a6-d17fd41ad8dc">
@@ -106,6 +107,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="31e5c773-5830-4ce6-971e-15966831fcc0">
+    <name>ДатаЗаписиНачалоЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи начало часа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>

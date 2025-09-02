@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87d7227f-f7d1-4237-8e80-98d01e31b2eb">
+  <name>ДрайверыВнешнихСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйверы внешних систем</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.рдв_КомпонентаRabbitMQ</content>
+  <parentSubsystem>Subsystem.рдв_АдминистрированиеИнтеграции.Subsystem.Интеграция</parentSubsystem>
+</mdclass:Subsystem>

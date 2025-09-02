@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecd02c13-daaa-411f-9692-c1adf9ac8d82">
+  <name>рдв_ПредопределенныеДанныеОбработкаПроверкиЗаполнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные данные обработка проверки заполнения</value>
+  </synonym>
+  <source>
+    <types>DefinedType.рдв_ПредопределенныеДанныеОбъект</types>
+  </source>
+  <event>FillCheckProcessing</event>
+  <handler>CommonModule.рдв_ПредопределенныеДанные.ОбработкаПроверкиЗаполнения</handler>
+</mdclass:EventSubscription>

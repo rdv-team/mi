@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a36bf1cc-7b87-4c05-89e4-53905bf9ba2c">
+  <name>рдв_ХешиОбъектовПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хеши объектов повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

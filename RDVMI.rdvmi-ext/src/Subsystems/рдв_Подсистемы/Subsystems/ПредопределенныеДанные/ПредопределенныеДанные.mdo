@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec7a7036-1c16-40fa-8ac6-5da950f49a65">
+  <name>ПредопределенныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные данные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.рдв_ПредопределенныеДанные</content>
+  <content>CommonModule.рдв_ПредопределенныеДанныеВызовСервера</content>
+  <content>CommonModule.рдв_ПредопределенныеДанныеКлиент</content>
+  <content>CommonModule.рдв_ПредопределенныеДанныеПереопределяемый</content>
+  <content>DefinedType.рдв_ПредопределенныеДанныеТип</content>
+  <content>DefinedType.рдв_ПредопределенныеДанные</content>
+  <content>DefinedType.рдв_ПредопределенныеДанныеОбъект</content>
+  <parentSubsystem>Subsystem.рдв_Подсистемы</parentSubsystem>
+</mdclass:Subsystem>

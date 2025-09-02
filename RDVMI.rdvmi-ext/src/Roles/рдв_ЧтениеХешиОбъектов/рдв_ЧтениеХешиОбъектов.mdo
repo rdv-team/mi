@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="643c21e7-9d5d-4920-9e3e-31b77b23fea5">
+  <name>рдв_ЧтениеХешиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение хеши объектов</value>
+  </synonym>
+</mdclass:Role>

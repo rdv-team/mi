@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff5e7a93-9651-45f4-9a3a-811d620453f7">
+  <name>РегистрацияИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.рдв_КонсольЗапросов</content>
+  <content>DataProcessor.рдв_ОбслуживаниеИнтеграции</content>
+  <parentSubsystem>Subsystem.рдв_АдминистрированиеИнтеграции.Subsystem.Интеграция</parentSubsystem>
+</mdclass:Subsystem>

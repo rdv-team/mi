@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffac9190-f76c-4805-a752-de00ebaeb074">
+  <producedTypes>
+    <selectionType typeId="a3b0e633-4642-4b78-b77c-c3fe683b8e51" valueTypeId="1fcfd4ee-d24a-4f63-938c-03df73f65b38"/>
+    <listType typeId="0fd77db3-0064-42c2-bfaf-467b946b9665" valueTypeId="08965e7e-c029-4e64-9161-11e7fd610d66"/>
+    <managerType typeId="4703cef6-28f6-4f86-8d0b-e6266ab0aacb" valueTypeId="1e65b5ac-73e4-4d3f-8360-7db0cd3d9ec0"/>
+    <recordSetType typeId="bd2e916f-54f3-48fe-8bfb-636bc66008a7" valueTypeId="0eacb783-c1c6-4c59-ab3f-fe7ed32fb6fe"/>
+    <recordKeyType typeId="60539db2-cb2b-4ce3-a6fe-2e1c76334a2a" valueTypeId="c7ab2481-0f78-4a6d-80f8-1e957c0193a2"/>
+    <recordType typeId="40d2030c-0fee-4100-b5d6-d9998474b908" valueTypeId="30488d69-50a7-4699-8484-907e5e0c4f76"/>
+    <recordManagerType typeId="77579075-7a6f-4222-af5c-739228251bc7" valueTypeId="36b9f90c-393d-4ded-9628-9548e801da2e"/>
+  </producedTypes>
+  <name>рдв_ХешиСообщенийИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хеши сообщений интеграции (РДВ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Хеши сообщений интеграции</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Хеши сообщений интеграции</value>
+  </listPresentation>
+  <resources uuid="99792281-f640-4613-ad46-a746472a031c">
+    <name>Хеш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рдв_ХешТип</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b732d34b-c184-424b-b090-d60dcff89444">
+    <name>ДатаАктуальности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата актуальности</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="cc179b3f-c4a3-482f-a2d6-f5ca6f472f64">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a3c5fba8-de40-49ce-a573-e8eb3b4646bc">
+    <name>ВидХеша</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид хеша</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВидыХешей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b7f18d1d-c85e-4b64-8d10-a28e624f6492">
+    <name>ИнформационнаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информационная база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ИнформационныеБазы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

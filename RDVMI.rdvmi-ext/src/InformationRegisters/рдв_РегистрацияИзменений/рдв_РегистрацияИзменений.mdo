@@ -124,21 +124,6 @@
       <value></value>
     </fillValue>
   </resources>
-  <attributes uuid="27eceda1-1166-4548-a109-024bd7a20165">
-    <name>ВнешняяСистема</name>
-    <synonym>
-      <key>ru</key>
-      <value>Внешняя система</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.рдв_ВнешниеСистемы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="cff2c6af-936f-492a-9db3-37cadc9b295d">
     <name>АдресМетода</name>
     <synonym>
@@ -158,21 +143,6 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
-  </attributes>
-  <attributes uuid="80c818d6-eac4-4172-8424-f61455ef237d">
-    <name>Интерфейс</name>
-    <synonym>
-      <key>ru</key>
-      <value>Интерфейс</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.рдв_ИнтерфейсыИнтеграции</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="b02a4592-2fff-4caa-836c-89eab5a8c453">
     <name>ВидСообщения</name>
@@ -208,11 +178,26 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="332e8273-2a7e-4795-9ce6-2d4af0baa41e">
-    <name>ИдентификаторСобытия</name>
+  <dimensions uuid="0a5bea3a-e0f1-437c-aca9-5008e37630b8">
+    <name>ВнешняяСистема</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор события</value>
+      <value>Внешняя система</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВнешниеСистемы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="59ff4136-475a-4d0d-b718-eccd8eda7c6c">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
     </synonym>
     <type>
       <types>String</types>
@@ -230,11 +215,11 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="59ff4136-475a-4d0d-b718-eccd8eda7c6c">
-    <name>ИдентификаторСообщения</name>
+  <dimensions uuid="332e8273-2a7e-4795-9ce6-2d4af0baa41e">
+    <name>ИдентификаторСобытия</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор сообщения</value>
+      <value>Идентификатор события</value>
     </synonym>
     <type>
       <types>String</types>

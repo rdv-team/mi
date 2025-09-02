@@ -10,7 +10,8 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
-    <defaultLanguage>Checked</defaultLanguage>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <sessionModule>Extended</sessionModule>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="33cf945b-ba39-4ae9-be61-8e98d94a6602"/>
@@ -28,22 +29,24 @@
   <scriptVariant>Russian</scriptVariant>
   <vendor>РДВ</vendor>
   <version>1.1</version>
-  <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <languages uuid="684bb36b-e901-498d-9969-c79d8f9a7805" extendedConfigurationObject="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
+  <languages uuid="684bb36b-e901-498d-9969-c79d8f9a7805">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:LanguageExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
-      <languageCode>Checked</languageCode>
-    </extension>
-    <languageCode>ru</languageCode>
+    <extension xsi:type="mdclassExtension:LanguageExtension"/>
   </languages>
-  <subsystems>Subsystem.рдв_Администрирование</subsystems>
+  <subsystems>Subsystem.рдв_АдминистрированиеИнтеграции</subsystems>
   <subsystems>Subsystem.рдв_Подсистемы</subsystems>
   <commonPictures>CommonPicture.НастроитьИнтеграциюАвтоматически</commonPictures>
+  <roles>Role.рдв_ДобавлениеИзменениеХешиОбъектов</roles>
+  <roles>Role.рдв_ЧтениеХешиОбъектов</roles>
   <commonTemplates>CommonTemplate.рдв_КомпонентаПауза</commonTemplates>
   <commonModules>CommonModule.рдв_Интеграция</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияПовтИсп</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияRMQ</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияHTTP</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбмена</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбменаПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбменаПовтИсп</commonModules>
@@ -61,12 +64,13 @@
   <commonModules>CommonModule.рдв_РаботаСИнструкциямиПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_РаботаСИнструкциямиПовтИсп</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередями</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСОчередямиИнтеграции</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСОчередямиИнтеграцииПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиВызовСервера</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиДемо</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиКлиентСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиПереопределяемый</commonModules>
-  <commonModules>CommonModule.рдв_РаботаССервисами</commonModules>
-  <commonModules>CommonModule.рдв_РаботаССервисамиПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСОчередямиКлиент</commonModules>
   <commonModules>CommonModule.рдв_РаботаСФормами</commonModules>
   <commonModules>CommonModule.рдв_РегистрацияИзменений</commonModules>
   <commonModules>CommonModule.рдв_РегистрацияИзмененийПереопределяемый</commonModules>
@@ -75,11 +79,20 @@
   <commonModules>CommonModule.рдв_РегламентныеЗаданияКлиентСервер</commonModules>
   <commonModules>CommonModule.рдв_РегламентныеЗаданияПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_ЧтениеJSON</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСRMQ</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСRMQПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_ЖурналСобытий</commonModules>
   <commonModules>CommonModule.рдв_МодульИнтеграцииДемо</commonModules>
-  <commonModules>CommonModule.рдв_МодульИнтеграцииДемоПовтИсп</commonModules>
+  <commonModules>CommonModule.рдв_ХешиОбъектов</commonModules>
+  <commonModules>CommonModule.рдв_ХешиОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ХешиОбъектовПовтИсп</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанные</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанныеВызовСервера</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанныеКлиент</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанныеПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ФормированиеХешейОбъектов</commonModules>
+  <commonModules>CommonModule.рдв_ФормированиеХешейОбъектовПовтИсп</commonModules>
+  <commonModules>CommonModule.рдв_ФомированиеХешейОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ФормированиеХешейОбъектовДемо</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
   <httpServices>HTTPService.рдв_Интеграция</httpServices>
   <eventSubscriptions>EventSubscription.рдв_СправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ДокументыПриЗаписи</eventSubscriptions>
@@ -87,20 +100,33 @@
   <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПриЗаписиОчереди</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПриЗаписиРегистрации</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПриЗаписиСообщения</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.рдв_ЖурналСобытийПередЗаписьюСообщения</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ПриЗаписиОбъектаХеша</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ПредопределенныеДанныеПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ПредопределенныеДанныеПриКопировании</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.рдв_ПредопределенныеДанныеОбработкаПроверкиЗаполнения</eventSubscriptions>
   <scheduledJobs>ScheduledJob.рдв_ОчисткаЖурналаОчередейОбработкиДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускОчередейОбработкиДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииОтправка</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииПолучение</scheduledJobs>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
+  <functionalOptions>FunctionalOption.рдв_КонтролироватьЦелостностьДанных</functionalOptions>
   <definedTypes>DefinedType.рдв_вм_ОбъектОчереди</definedTypes>
+  <definedTypes>DefinedType.рдв_ХешируемыйОбъектОбъект</definedTypes>
+  <definedTypes>DefinedType.рдв_ХешТип</definedTypes>
+  <definedTypes>DefinedType.рдв_ХешируемыйОбъект</definedTypes>
+  <definedTypes>DefinedType.рдв_ПредопределенныеДанныеТип</definedTypes>
+  <definedTypes>DefinedType.рдв_ПредопределенныеДанные</definedTypes>
+  <definedTypes>DefinedType.рдв_ПредопределенныеДанныеОбъект</definedTypes>
   <commonCommands>CommonCommand.рдв_ИнструкцииПоРаботеССистемой</commonCommands>
+  <constants>Constant.рдв_ФормироватьХешОбъектов</constants>
   <commonForms>CommonForm.рдв_ФормаHTMLДокумента</commonForms>
   <catalogs>Catalog.рдв_ВидыСообщенийИнтеграции</catalogs>
   <catalogs>Catalog.рдв_ВнешниеСистемы</catalogs>
   <catalogs>Catalog.рдв_ВыгружаемыеОбъекты</catalogs>
-  <catalogs>Catalog.рдв_ИнтерфейсыИнтеграции</catalogs>
-  <catalogs>Catalog.рдв_СообщенияИнтеграции</catalogs>
   <catalogs>Catalog.рдв_ТипыОчередейОбработкиДанных</catalogs>
+  <catalogs>Catalog.рдв_СтатусыИнтеграции</catalogs>
+  <catalogs>Catalog.рдв_ВидыХешей</catalogs>
+  <catalogs>Catalog.рдв_ИнформационныеБазы</catalogs>
   <enums>Enum.рдв_ФорматыОбмена</enums>
   <enums>Enum.рдв_НаправленияСообщенийИнтеграции</enums>
   <enums>Enum.рдв_ТипыОшибокИнтеграции</enums>
@@ -113,15 +139,23 @@
   <enums>Enum.рдв_СтатусыЗапросовИнтеграции</enums>
   <enums>Enum.рдв_СтатусыРегистрацииИзменений</enums>
   <enums>Enum.рдв_События</enums>
+  <enums>Enum.рдв_СтатусыОбработкиСообщений</enums>
   <reports>Report.рдв_СостояниеОчередейОбработкиДанных</reports>
+  <reports>Report.рдв_СверкаПолнотыТочностиДанных</reports>
   <dataProcessors>DataProcessor.рдв_КомпонентаRabbitMQ</dataProcessors>
-  <informationRegisters>InformationRegister.рдв_ДанныеСообщенийИнтеграции</informationRegisters>
+  <dataProcessors>DataProcessor.рдв_ОбслуживаниеИнтеграции</dataProcessors>
+  <dataProcessors>DataProcessor.рдв_КонсольЗапросов</dataProcessors>
   <informationRegisters>InformationRegister.рдв_ЖурналОчередейОбработкиДанных</informationRegisters>
-  <informationRegisters>InformationRegister.рдв_ОбъектыСообщенийИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ОчередиОбработкиДанных</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ОшибкиИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.рдв_РегистрацияИзменений</informationRegisters>
   <informationRegisters>InformationRegister.рдв_СоответствиеОбъектовИнструкций</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ЖурналСобытий</informationRegisters>
+  <informationRegisters>InformationRegister.рдв_КонтекстСообщенийИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.рдв_ОбъектыСообщенийИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.рдв_СообщенияИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.рдв_ХешиОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.рдв_ХешиСообщенийИнтеграции</informationRegisters>
+  <informationRegisters>InformationRegister.рдв_ИдентификаторыОбъектовИсточника</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

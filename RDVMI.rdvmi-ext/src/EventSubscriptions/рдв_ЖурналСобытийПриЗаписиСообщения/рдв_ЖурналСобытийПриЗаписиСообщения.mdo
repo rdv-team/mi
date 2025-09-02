@@ -6,7 +6,7 @@
     <value>Журнал событий при записи сообщения</value>
   </synonym>
   <source>
-    <types>CatalogObject.рдв_СообщенияИнтеграции</types>
+    <types>InformationRegisterRecordSet.рдв_СообщенияИнтеграции</types>
   </source>
   <event>OnWrite</event>
   <handler>CommonModule.рдв_ЖурналСобытий.рдв_ЖурналСобытийПриЗаписиСообщенияПриЗаписи</handler>

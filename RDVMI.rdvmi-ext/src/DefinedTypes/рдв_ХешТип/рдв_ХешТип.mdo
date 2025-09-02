@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1eeb2fc6-1cc5-47cd-a3c5-ecde15961662">
+  <producedTypes>
+    <containerType typeId="5f5b189b-1de9-44dc-b0a7-408242c82e40" valueTypeId="f0bcf5c1-d88d-4ec3-8782-6c039dabf798"/>
+  </producedTypes>
+  <name>рдв_ХешТип</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хеш тип</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>32</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

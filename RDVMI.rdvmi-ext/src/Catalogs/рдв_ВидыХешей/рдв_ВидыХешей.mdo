@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e14a67-a72c-4095-be85-751dba68efab">
+  <producedTypes>
+    <objectType typeId="c7e841b0-74f8-4e22-9d45-740a548622ad" valueTypeId="e4ec73a2-9395-4d9d-a65a-656932a2faa2"/>
+    <refType typeId="4e0cd901-0957-4a60-ba11-20d9d2983874" valueTypeId="54b4f00b-5834-4452-9285-d8a198698b9f"/>
+    <selectionType typeId="6870f8ec-1846-4878-a741-95d9be10b82b" valueTypeId="fadb9b61-404d-4bb5-8fe3-813fc6d139b5"/>
+    <listType typeId="b42ca966-a8d9-428c-b8e3-8fbd60f3c989" valueTypeId="215d9d6f-cfb4-456d-87e8-12f13d2c0129"/>
+    <managerType typeId="d33892a4-23f6-476f-bb30-51a8f0e39119" valueTypeId="9794e82c-681b-4989-a3a9-8c25b196f626"/>
+  </producedTypes>
+  <name>рдв_ВидыХешей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды хешей (РДВ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.рдв_ВидыХешей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.рдв_ВидыХешей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Виды хешей</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды хешей</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined/>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="18d40ed3-098a-4909-94a3-345e1a8ec55f">
+    <name>рдв_Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор (РДВ)</value>
+    </synonym>
+    <type>
+      <types>DefinedType.рдв_ПредопределенныеДанныеТип</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <templates uuid="6b32257a-f483-412d-aa83-cb0729dc176c">
+    <name>ПредопределенныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные данные</value>
+    </synonym>
+  </templates>
+  <templates uuid="5c0e1aa4-8477-4351-a0c1-36e68da61834">
+    <name>ПредопределенныеДанные_Демо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предопределенные данные демо</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

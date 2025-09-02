@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="524b571e-7ab7-44a2-aad9-031466b0ff52">
+  <name>рдв_КонтролироватьЦелостностьДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция</value>
+  </synonym>
+  <location>Constant.рдв_ФормироватьХешОбъектов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Report.рдв_СверкаПолнотыТочностиДанных</content>
+  <content>Report.рдв_СверкаПолнотыТочностиДанных.Command.СверкаПолнотыТочностиДанных</content>
+  <content>InformationRegister.рдв_ХешиОбъектов</content>
+  <content>InformationRegister.рдв_ХешиСообщенийИнтеграции</content>
+</mdclass:FunctionalOption>

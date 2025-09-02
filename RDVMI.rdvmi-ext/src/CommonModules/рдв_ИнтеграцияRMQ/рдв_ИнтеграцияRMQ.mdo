@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="983ba800-e889-4349-b4dc-5e15c7901e34">
+  <name>рдв_ИнтеграцияRMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция RMQ (РДВ)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

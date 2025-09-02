@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f883ad6a-0915-41b0-8590-42c76add0440">
+  <producedTypes>
+    <objectType typeId="f76af16e-248c-4d82-b177-4a97e647659c" valueTypeId="1c82a2e6-3908-4c28-ad9f-34f165a182e5"/>
+    <managerType typeId="efa2d342-d6b9-4c6f-9ef4-f6c795631553" valueTypeId="8d5e0fba-d8b3-4567-9c11-720444af456d"/>
+  </producedTypes>
+  <name>рдв_ОбслуживаниеИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обслуживание интеграции (РДВ)</value>
+  </synonym>
+  <defaultForm>DataProcessor.рдв_ОбслуживаниеИнтеграции.Form.Форма</defaultForm>
+  <attributes uuid="d4e77172-cfc9-4eed-b3ae-d4c89b4d1225">
+    <name>ИменаСкрываемыхМетаданных</name>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="dbe1d303-f11a-4114-a791-4e7395f17411">
+    <name>Форма</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="761e9ea5-e74e-4e8f-838f-d97b0c5a8ae4">
+    <name>ВыборОбъектовОтбором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор объектов отбором</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="88ac0adb-a209-4aab-a503-4a82a365d657">
+    <name>ОбслуживаниеИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обслуживание интеграции</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

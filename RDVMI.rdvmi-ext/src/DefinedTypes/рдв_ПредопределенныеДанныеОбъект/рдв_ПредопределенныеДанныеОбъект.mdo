@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3de3943-126c-4c4a-8ea9-a9de6f7701e2">
+  <producedTypes>
+    <containerType typeId="a2a0c19a-4196-497a-89ef-09b3c397ac80" valueTypeId="ff6e4a0d-9517-4457-a5e8-043925312744"/>
+  </producedTypes>
+  <name>рдв_ПредопределенныеДанныеОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные данные объект</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.рдв_ВнешниеСистемы</types>
+    <types>CatalogObject.рдв_ВидыХешей</types>
+    <types>ChartOfCharacteristicTypesObject.рдв_НастройкиПрограммы</types>
+    <types>CatalogObject.рдв_ВидыСообщенийИнтеграции</types>
+    <types>CatalogObject.рдв_ИнформационныеБазы</types>
+  </type>
+</mdclass:DefinedType>

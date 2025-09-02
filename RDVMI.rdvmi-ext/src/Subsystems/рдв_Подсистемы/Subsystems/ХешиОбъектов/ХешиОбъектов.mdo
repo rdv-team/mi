@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb9eb57d-321f-4413-bc7a-5f323bf6356f">
+  <name>ХешиОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хеши объектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.рдв_ХешиОбъектов</content>
+  <content>CommonModule.рдв_ХешиОбъектовПереопределяемый</content>
+  <content>CommonModule.рдв_ХешиОбъектовПовтИсп</content>
+  <content>Role.рдв_ДобавлениеИзменениеХешиОбъектов</content>
+  <content>Role.рдв_ЧтениеХешиОбъектов</content>
+  <content>EventSubscription.рдв_ПриЗаписиОбъектаХеша</content>
+  <content>DefinedType.рдв_ХешируемыйОбъект</content>
+  <content>DefinedType.рдв_ХешТип</content>
+  <content>DefinedType.рдв_ХешируемыйОбъектОбъект</content>
+  <content>Catalog.рдв_ВидыХешей</content>
+  <content>InformationRegister.рдв_ХешиОбъектов</content>
+  <parentSubsystem>Subsystem.рдв_Подсистемы</parentSubsystem>
+</mdclass:Subsystem>

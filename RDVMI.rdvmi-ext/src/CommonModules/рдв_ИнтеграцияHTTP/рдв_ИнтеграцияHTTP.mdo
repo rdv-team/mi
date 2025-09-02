@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="509e279c-181d-4904-834d-0f0968d3f0a0">
+  <name>рдв_ИнтеграцияHTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция HTTP (РДВ)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

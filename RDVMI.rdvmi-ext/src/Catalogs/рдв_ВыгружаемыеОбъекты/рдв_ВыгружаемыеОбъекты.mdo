@@ -10,7 +10,7 @@
   <name>рдв_ВыгружаемыеОбъекты</name>
   <synonym>
     <key>ru</key>
-    <value>Выгружаемые объекты</value>
+    <value>Выгружаемые объекты (РДВ)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.рдв_ВыгружаемыеОбъекты.StandardAttribute.Description</inputByString>
@@ -94,6 +94,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Выгружаемые объекты</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Выгружаемые объекты</value>
+  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>150</descriptionLength>
@@ -154,26 +162,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="dd3d9d91-1821-4e2d-9a0f-c2406c635698">
-    <name>ИдентификаторСобытия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор события</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>32</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="c9f1f29c-4e17-4ed3-b124-ddd1477e9b7b">
     <name>Успешно</name>
     <synonym>
@@ -206,6 +194,64 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ce8705b-7b53-423c-9e30-85604fde5d3f">
+    <name>ХешСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш сумма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>32</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d54f22e3-a1c5-4a21-859b-5c0b59e29ece">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>125</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d6374b94-37aa-4fd1-b0c2-aa23118a011c">
+    <name>Входящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

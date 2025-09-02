@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b580b91c-2908-43b3-a46e-d38d3adc7f5e">
+  <producedTypes>
+    <selectionType typeId="052be011-51db-4f88-b219-58c0a4df1b41" valueTypeId="fe09d3a1-7002-4342-a4d9-d1c200009fb1"/>
+    <listType typeId="b009de86-4427-41e5-88b7-811044bf8710" valueTypeId="8918ea16-f221-4edb-8934-2987c06e7efd"/>
+    <managerType typeId="410da21b-e195-4c75-a37e-4a96f05835f2" valueTypeId="04e4d3c0-aa46-43d7-8e20-afad3cdd39c1"/>
+    <recordSetType typeId="f1da3f29-8d0a-4b2c-a047-ef1ad08dc5b4" valueTypeId="7c4e7ae6-83ea-446a-9244-7b2d0428811e"/>
+    <recordKeyType typeId="3a1bf1ca-68e0-467b-b8e2-5329ba9b666a" valueTypeId="54b6039c-48f0-4367-8223-a89bf7d1ed67"/>
+    <recordType typeId="5ac9bb75-4bd2-468e-9af2-c2df5bf263b1" valueTypeId="e1de1c04-5783-459b-8626-4ef55031a191"/>
+    <recordManagerType typeId="f8677f70-7ab7-4e81-8fbd-b3d2e50095f3" valueTypeId="99773c10-d965-4e4c-b163-477df565a11b"/>
+  </producedTypes>
+  <name>рдв_КонтекстСообщенийИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контекст сообщений интеграции (РДВ)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Контекст сообщения</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Контекст сообщений</value>
+  </listPresentation>
+  <resources uuid="f0f27ca4-62d0-41e1-97bd-5a78727e35d6">
+    <name>Контекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="85b9c392-7fa4-4d15-afff-1303f396f8c1">
+    <name>ДлительностьМс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность мс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2f74bdf8-d1b9-4be8-819e-b27e5138bbdb">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+  </resources>
+  <resources uuid="56f8977a-94f1-4d64-b281-bbe9bbc94772">
+    <name>ДатаСобытияМс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события мс</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Дата события мс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+  </resources>
+  <resources uuid="5d621ea8-3d1a-42e2-b0c1-8ef2d9f02813">
+    <name>ДатаОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ответа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f6877d5b-1383-49fb-bc67-1350ce32ba38">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_СтатусыИнтеграции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5af5049f-9fa5-4c1f-afbf-61db005ab499">
+    <name>ИдентификаторСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a0210438-52b5-4f84-96cd-b8edeb92ab59">
+    <name>ИдентификаторКонтекста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор контекста</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Идентификатор контекста</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b74edc5f-4afe-4460-b0c7-a91b5edf2067">
+    <name>ДатаЗаписиНачалоЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата записи начало часа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

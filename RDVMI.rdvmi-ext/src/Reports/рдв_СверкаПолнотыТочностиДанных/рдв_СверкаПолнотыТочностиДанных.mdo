@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8a94e68-6a73-464d-b59b-48c1d01e5e72">
+  <producedTypes>
+    <objectType typeId="4deee24a-9101-424d-aca6-85546e292765" valueTypeId="472b2076-6e8b-449b-8e0e-4398403e5840"/>
+    <managerType typeId="2c874eb2-e23d-4ddb-80bf-4e182eda2ccb" valueTypeId="d7919659-aaef-4b5e-85c2-500fbeaef226"/>
+  </producedTypes>
+  <name>рдв_СверкаПолнотыТочностиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сверка полноты точности данных</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.рдв_СверкаПолнотыТочностиДанных.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="4f1f117f-f320-4c70-8041-e4695b7e0137">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОсновнаяСхемаКомпоновкиДанных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="d72a324f-1093-4597-8671-6c648ead2ee2">
+    <name>СверкаПолнотыТочностиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка полноты точности данных</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

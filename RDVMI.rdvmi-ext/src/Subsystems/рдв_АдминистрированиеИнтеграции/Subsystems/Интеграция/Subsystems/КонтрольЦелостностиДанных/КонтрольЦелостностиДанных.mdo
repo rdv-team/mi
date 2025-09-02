@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4b265b4-1a73-4e56-bfee-83a4dc508d5d">
+  <name>КонтрольЦелостностиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль целостности данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.рдв_ФормированиеХешейОбъектовПовтИсп</content>
+  <content>CommonModule.рдв_ФормированиеХешейОбъектов</content>
+  <content>CommonModule.рдв_ФомированиеХешейОбъектовПереопределяемый</content>
+  <parentSubsystem>Subsystem.рдв_АдминистрированиеИнтеграции.Subsystem.Интеграция</parentSubsystem>
+</mdclass:Subsystem>
