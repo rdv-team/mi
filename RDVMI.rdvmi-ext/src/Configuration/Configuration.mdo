@@ -93,6 +93,7 @@
   <commonModules>CommonModule.рдв_ФомированиеХешейОбъектовПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_ФормированиеХешейОбъектовДемо</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_МониторингДанных</commonModules>
   <httpServices>HTTPService.рдв_Интеграция</httpServices>
   <eventSubscriptions>EventSubscription.рдв_СправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ДокументыПриЗаписи</eventSubscriptions>
@@ -108,6 +109,7 @@
   <scheduledJobs>ScheduledJob.рдв_ЗапускОчередейОбработкиДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииОтправка</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииПолучение</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рдв_ОтправкаСообщенийДиагностики</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.рдв_КонтролироватьЦелостностьДанных</functionalOptions>
   <definedTypes>DefinedType.рдв_вм_ОбъектОчереди</definedTypes>

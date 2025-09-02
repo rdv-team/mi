@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81694146-9463-483f-aeee-46f66007fb83">
+  <name>рдв_ОтправкаСообщенийДиагностики</name>
+  <synonym>
+    <key>ru1</key>
+    <value>Отправка сообщений диагностики (РДВ)</value>
+  </synonym>
+  <methodName>CommonModule.рдв_МониторингДанных.РегламентОтправкиСообщенийДиагностики</methodName>
+  <description>Отправка сообщений диагностики (РДВ)</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
