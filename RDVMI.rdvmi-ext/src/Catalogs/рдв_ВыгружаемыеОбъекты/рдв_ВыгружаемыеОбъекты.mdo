@@ -219,11 +219,11 @@
   <attributes uuid="d54f22e3-a1c5-4a21-859b-5c0b59e29ece">
     <name>ИдентификаторСообщения</name>
     <synonym>
-      <key>ru</key>
+      <key></key>
       <value>Идентификатор сообщения</value>
     </synonym>
     <synonym>
-      <key></key>
+      <key>ru</key>
       <value>Идентификатор сообщения</value>
     </synonym>
     <type>
@@ -248,6 +248,21 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17bc8363-ed52-484d-9d9c-7d7cac51cf93">
+    <name>ВидСообщения</name>
+    <synonym>
+      <key>ru1</key>
+      <value>Вид сообщения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.рдв_ВидыСообщенийИнтеграции</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

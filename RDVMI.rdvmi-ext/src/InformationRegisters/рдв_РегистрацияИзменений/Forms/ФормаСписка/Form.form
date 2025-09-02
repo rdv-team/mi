@@ -791,21 +791,21 @@
   <formCommands>
     <name>СформироватьСообщения</name>
     <title>
-      <key>ru</key>
-      <value>Выполнить выгрузку</value>
-    </title>
-    <title>
       <key></key>
       <value>Сформировать сообщения</value>
+    </title>
+    <title>
+      <key>ru</key>
+      <value>Выполнить выгрузку</value>
     </title>
     <id>1</id>
     <toolTip>
-      <key>ru</key>
-      <value>Выполнить выгрузку</value>
-    </toolTip>
-    <toolTip>
       <key></key>
       <value>Сформировать сообщения</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнить выгрузку</value>
     </toolTip>
     <use>
       <common>true</common>

@@ -124,6 +124,22 @@
       <value></value>
     </fillValue>
   </resources>
+  <resources uuid="c62f5edb-5c54-4a9f-8294-767b1ed3829d">
+    <name>ДатаРегистрацииUTC</name>
+    <synonym>
+      <key>ru1</key>
+      <value>Дата регистрации UTC</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <attributes uuid="cff2c6af-936f-492a-9db3-37cadc9b295d">
     <name>АдресМетода</name>
     <synonym>
