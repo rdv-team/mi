@@ -118,6 +118,10 @@
           <segments>СообщениеДанные</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>СообщениеДанныеПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>СообщениеДанныеРасширеннаяПодсказка</name>
           <id>45</id>
@@ -2654,6 +2658,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <savedData>true</savedData>
   </attributes>
   <attributes>
     <name>ОтветДанные</name>
@@ -2702,6 +2707,23 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СообщениеДанныеИзменились</name>
+    <title>
+      <key>ru</key>
+      <value>Сообщение данные изменились</value>
+    </title>
+    <id>17</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -2773,5 +2795,10 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo"/>
+  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo">
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
+  </extInfo>
 </form:Form>
