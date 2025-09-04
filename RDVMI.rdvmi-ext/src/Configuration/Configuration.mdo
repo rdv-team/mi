@@ -33,7 +33,10 @@
   <languages uuid="684bb36b-e901-498d-9969-c79d8f9a7805">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
-    <extension xsi:type="mdclassExtension:LanguageExtension"/>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.рдв_АдминистрированиеИнтеграции</subsystems>
   <subsystems>Subsystem.рдв_Подсистемы</subsystems>
