@@ -39,13 +39,6 @@
       <value>HTTP сервис</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="0587aa68-6d6a-4689-b829-61eebaa86cdb">
-    <name>FTP</name>
-    <synonym>
-      <key>ru</key>
-      <value>FTP</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="d09b71cc-3bf7-4a8c-a31d-4a7ab675d2c2">
     <name>RMQ</name>
     <synonym>
