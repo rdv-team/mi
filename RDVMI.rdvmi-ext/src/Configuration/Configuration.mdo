@@ -61,11 +61,6 @@
   <commonModules>CommonModule.рдв_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рдв_Пауза</commonModules>
   <commonModules>CommonModule.рдв_ПаузаПовтИсп</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСИнструкциями</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСИнструкциямиВызовСервера</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСИнструкциямиКлиент</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСИнструкциямиПереопределяемый</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСИнструкциямиПовтИсп</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередями</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиИнтеграции</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиИнтеграцииПереопределяемый</commonModules>
@@ -122,7 +117,6 @@
   <definedTypes>DefinedType.рдв_ПредопределенныеДанныеТип</definedTypes>
   <definedTypes>DefinedType.рдв_ПредопределенныеДанные</definedTypes>
   <definedTypes>DefinedType.рдв_ПредопределенныеДанныеОбъект</definedTypes>
-  <commonCommands>CommonCommand.рдв_ИнструкцииПоРаботеССистемой</commonCommands>
   <constants>Constant.рдв_ФормироватьХешОбъектов</constants>
   <commonForms>CommonForm.рдв_ФормаHTMLДокумента</commonForms>
   <catalogs>Catalog.рдв_ВидыСообщенийИнтеграции</catalogs>
@@ -154,7 +148,6 @@
   <informationRegisters>InformationRegister.рдв_ОчередиОбработкиДанных</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ОшибкиИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.рдв_РегистрацияИзменений</informationRegisters>
-  <informationRegisters>InformationRegister.рдв_СоответствиеОбъектовИнструкций</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ЖурналСобытий</informationRegisters>
   <informationRegisters>InformationRegister.рдв_КонтекстСообщенийИнтеграции</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ОбъектыСообщенийИнтеграции</informationRegisters>

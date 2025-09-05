@@ -8,7 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <content>fdb012c9-583a-42af-95da-070e75a58078</content>
   <content>CommonModule.рдв_ОбщегоНазначения</content>
-  <subsystems>РаботаСИнструкциями</subsystems>
   <subsystems>ХешиОбъектов</subsystems>
   <subsystems>ПредопределенныеДанные</subsystems>
 </mdclass:Subsystem>
