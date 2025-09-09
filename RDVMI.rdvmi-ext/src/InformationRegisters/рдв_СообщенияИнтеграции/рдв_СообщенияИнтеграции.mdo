@@ -283,4 +283,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="34ee122a-f806-48ab-b78d-7c6294b3ab49">
+    <name>КомандаПерейтиВСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщения</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:InformationRegister>

@@ -17,6 +17,7 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.рдв_ОшибкиИнтеграции.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.рдв_ОшибкиИнтеграции.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -111,32 +112,16 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="1986c635-43e4-4bb6-b20e-444af27f364d">
-    <name>Сообщение</name>
+    <name>ИдентификаторСообщения</name>
     <synonym>
       <key>ru</key>
-      <value>Сообщение</value>
+      <value>Идентификатор сообщения</value>
     </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>36</length>
       </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="127b1d4d-a65a-4fa0-8488-08b4ffba97b0">
-    <name>Интеграция</name>
-    <synonym>
-      <key>ru</key>
-      <value>Интеграция</value>
-    </synonym>
-    <type>
-      <types>EnumRef.рдв_Интеграции</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -187,6 +172,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7b339dc2-8f38-4280-8d44-aa370200586e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

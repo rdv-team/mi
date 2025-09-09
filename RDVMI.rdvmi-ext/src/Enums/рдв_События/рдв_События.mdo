@@ -40,4 +40,11 @@
       <value>Входящее сообщение</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="b6bd12a0-d67a-469d-8d1c-cb84348cf632">
+    <name>ОбработкаСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка сообщения</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
