@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7c1ca95-0086-4202-9bf4-1b7078ce4b9e">
+  <name>рдв_ОбработчикиСобытийДемо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики событий демо (ВМ)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

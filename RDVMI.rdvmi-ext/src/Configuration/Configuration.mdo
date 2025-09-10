@@ -44,16 +44,19 @@
   <roles>Role.рдв_ДобавлениеИзменениеХешиОбъектов</roles>
   <roles>Role.рдв_ЧтениеХешиОбъектов</roles>
   <commonTemplates>CommonTemplate.рдв_КомпонентаПауза</commonTemplates>
+  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ЖурналСобытий</commonModules>
   <commonModules>CommonModule.рдв_Интеграция</commonModules>
-  <commonModules>CommonModule.рдв_ИнтеграцияПовтИсп</commonModules>
-  <commonModules>CommonModule.рдв_ИнтеграцияОбщегоНазначения</commonModules>
-  <commonModules>CommonModule.рдв_ИнтеграцияRMQ</commonModules>
   <commonModules>CommonModule.рдв_ИнтеграцияHTTP</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияRMQ</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рдв_ИнтеграцияПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияПовтИсп</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбмена</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбменаПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_МенеджерОбменаПовтИсп</commonModules>
   <commonModules>CommonModule.рдв_Многопоточность</commonModules>
+  <commonModules>CommonModule.рдв_МониторингДанных</commonModules>
   <commonModules>CommonModule.рдв_НастройкиПрограммы</commonModules>
   <commonModules>CommonModule.рдв_ОбменДанными</commonModules>
   <commonModules>CommonModule.рдв_ОбработчикиСобытий</commonModules>
@@ -61,19 +64,22 @@
   <commonModules>CommonModule.рдв_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.рдв_Пауза</commonModules>
   <commonModules>CommonModule.рдв_ПаузаПовтИсп</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанные</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанныеВызовСервера</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанныеКлиент</commonModules>
+  <commonModules>CommonModule.рдв_ПредопределенныеДанныеПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_РаботаСИнструкциями</commonModules>
   <commonModules>CommonModule.рдв_РаботаСИнструкциямиВызовСервера</commonModules>
   <commonModules>CommonModule.рдв_РаботаСИнструкциямиКлиент</commonModules>
   <commonModules>CommonModule.рдв_РаботаСИнструкциямиПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_РаботаСИнструкциямиПовтИсп</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередями</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСОчередямиВызовСервера</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиИнтеграции</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиИнтеграцииПереопределяемый</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСОчередямиВызовСервера</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСОчередямиДемо</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСОчередямиКлиент</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиКлиентСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_РаботаСОчередямиПереопределяемый</commonModules>
-  <commonModules>CommonModule.рдв_РаботаСОчередямиКлиент</commonModules>
   <commonModules>CommonModule.рдв_РаботаСФормами</commonModules>
   <commonModules>CommonModule.рдв_РегистрацияИзменений</commonModules>
   <commonModules>CommonModule.рдв_РегистрацияИзмененийПереопределяемый</commonModules>
@@ -81,22 +87,20 @@
   <commonModules>CommonModule.рдв_РегламентныеЗадания</commonModules>
   <commonModules>CommonModule.рдв_РегламентныеЗаданияКлиентСервер</commonModules>
   <commonModules>CommonModule.рдв_РегламентныеЗаданияПереопределяемый</commonModules>
-  <commonModules>CommonModule.рдв_ЧтениеJSON</commonModules>
-  <commonModules>CommonModule.рдв_ЖурналСобытий</commonModules>
-  <commonModules>CommonModule.рдв_МодульИнтеграцииДемо</commonModules>
+  <commonModules>CommonModule.рдв_ФомированиеХешейОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ФормированиеХешейОбъектов</commonModules>
+  <commonModules>CommonModule.рдв_ФормированиеХешейОбъектовПовтИсп</commonModules>
   <commonModules>CommonModule.рдв_ХешиОбъектов</commonModules>
   <commonModules>CommonModule.рдв_ХешиОбъектовПереопределяемый</commonModules>
   <commonModules>CommonModule.рдв_ХешиОбъектовПовтИсп</commonModules>
-  <commonModules>CommonModule.рдв_ПредопределенныеДанные</commonModules>
-  <commonModules>CommonModule.рдв_ПредопределенныеДанныеВызовСервера</commonModules>
-  <commonModules>CommonModule.рдв_ПредопределенныеДанныеКлиент</commonModules>
-  <commonModules>CommonModule.рдв_ПредопределенныеДанныеПереопределяемый</commonModules>
-  <commonModules>CommonModule.рдв_ФормированиеХешейОбъектов</commonModules>
-  <commonModules>CommonModule.рдв_ФормированиеХешейОбъектовПовтИсп</commonModules>
-  <commonModules>CommonModule.рдв_ФомированиеХешейОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.рдв_ЧтениеJSON</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияДемо</commonModules>
+  <commonModules>CommonModule.рдв_МониторингДанныхДемо</commonModules>
+  <commonModules>CommonModule.рдв_МенеджерОбменаДемо</commonModules>
+  <commonModules>CommonModule.рдв_РаботаСОчередямиДемо</commonModules>
+  <commonModules>CommonModule.рдв_РегистрацияИзмененийДемо</commonModules>
+  <commonModules>CommonModule.рдв_ОбработчикиСобытийДемо</commonModules>
   <commonModules>CommonModule.рдв_ФормированиеХешейОбъектовДемо</commonModules>
-  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
-  <commonModules>CommonModule.рдв_МониторингДанных</commonModules>
   <httpServices>HTTPService.рдв_Интеграция</httpServices>
   <eventSubscriptions>EventSubscription.рдв_СправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ДокументыПриЗаписи</eventSubscriptions>
