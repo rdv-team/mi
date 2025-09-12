@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be9eb016-84b0-4b3c-aae7-9d311188e4d6">
+  <name>рдв_РегистрацияИзмененийДемо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений демо</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

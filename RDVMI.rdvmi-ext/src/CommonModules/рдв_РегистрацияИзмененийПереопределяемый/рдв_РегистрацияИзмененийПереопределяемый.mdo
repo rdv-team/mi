@@ -3,7 +3,7 @@
   <name>рдв_РегистрацияИзмененийПереопределяемый</name>
   <synonym>
     <key>ru</key>
-    <value>Рдв регистрация изменений переопределяемый</value>
+    <value>Регистрация изменений переопределяемый</value>
   </synonym>
   <server>true</server>
 </mdclass:CommonModule>
