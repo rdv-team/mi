@@ -40,7 +40,7 @@
   </languages>
   <subsystems>Subsystem.рдв_АдминистрированиеИнтеграции</subsystems>
   <subsystems>Subsystem.рдв_Подсистемы</subsystems>
-  <commonPictures>CommonPicture.НастроитьИнтеграциюАвтоматически</commonPictures>
+  <commonPictures>CommonPicture.рдв_НастроитьИнтеграциюАвтоматически</commonPictures>
   <roles>Role.рдв_ДобавлениеИзменениеХешиОбъектов</roles>
   <roles>Role.рдв_ЧтениеХешиОбъектов</roles>
   <commonTemplates>CommonTemplate.рдв_КомпонентаПауза</commonTemplates>

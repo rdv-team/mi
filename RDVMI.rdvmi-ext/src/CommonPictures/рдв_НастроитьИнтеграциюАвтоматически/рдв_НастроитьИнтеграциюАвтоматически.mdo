@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="342825ec-de99-4fcc-831d-845722d64086">
-  <name>НастроитьИнтеграциюАвтоматически</name>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53facea4-b5f3-42fe-854b-1d013b0152cb">
+  <name>рдв_НастроитьИнтеграциюАвтоматически</name>
   <synonym>
     <key>ru</key>
     <value>Настроить интеграцию автоматически</value>
