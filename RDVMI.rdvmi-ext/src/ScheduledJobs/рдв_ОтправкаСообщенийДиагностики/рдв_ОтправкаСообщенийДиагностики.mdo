@@ -5,6 +5,10 @@
     <key>ru1</key>
     <value>Отправка сообщений диагностики (РДВ)</value>
   </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений диагностики (РДВ)</value>
+  </synonym>
   <methodName>CommonModule.рдв_МониторингДанных.РегламентОтправкиСообщенийДиагностики</methodName>
   <description>Отправка сообщений диагностики (РДВ)</description>
   <use>true</use>

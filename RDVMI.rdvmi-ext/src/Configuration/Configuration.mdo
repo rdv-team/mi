@@ -112,6 +112,7 @@
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииОтправка</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииПолучение</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ОтправкаСообщенийДиагностики</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рдв_ФормированиеИсходящихСообщений</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.рдв_КонтролироватьЦелостностьДанных</functionalOptions>
   <definedTypes>DefinedType.рдв_вм_ОбъектОчереди</definedTypes>
