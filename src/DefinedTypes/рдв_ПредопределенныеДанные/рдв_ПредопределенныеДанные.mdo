@@ -9,8 +9,8 @@
     <value>Предопределенные данные</value>
   </synonym>
   <type>
-    <types>CatalogRef.рдв_ВидыХешей</types>
     <types>CatalogRef.рдв_ВнешниеСистемы</types>
+    <types>CatalogRef.рдв_ВидыХешей</types>
     <types>ChartOfCharacteristicTypesRef.рдв_НастройкиПрограммы</types>
     <types>CatalogRef.рдв_ВидыСообщенийИнтеграции</types>
     <types>CatalogRef.рдв_ИнформационныеБазы</types>

@@ -20,6 +20,10 @@
   <content>InformationRegister.рдв_ИдентификаторыОбъектовИсточника</content>
   <content>Report.рдв_СверкаПолнотыТочностиДанных</content>
   <content>Catalog.рдв_ИнформационныеБазы</content>
+  <content>Report.рдв_ПредставлениеПравилКонвертации</content>
+  <content>Report.рдв_ПредставлениеПравилРегистрации</content>
+  <content>Report.рдв_ПредставлениеПравилРасчетаХеша</content>
+  <content>DataProcessor.рдв_АРМИнтеграции</content>
   <subsystems>РегистрацияИзменений</subsystems>
   <subsystems>ДрайверыВнешнихСистем</subsystems>
   <subsystems>КонтрольЦелостностиДанных</subsystems>

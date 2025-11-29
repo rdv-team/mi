@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1210b853-c86f-47ec-93b7-1879f14deee5">
+  <producedTypes>
+    <objectType typeId="b494c3d7-3db6-41bb-bd8f-0d43271962da" valueTypeId="5fd983e5-86b9-4385-8a7f-319023818af1"/>
+    <managerType typeId="c4ca5cb1-6d2e-4865-b3e5-e0b8a765f96a" valueTypeId="3c1d80aa-e969-4fb3-8228-c30699d51d44"/>
+  </producedTypes>
+  <name>рдв_ПредставлениеПравилРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представление правил регистрации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рдв_ПредставлениеПравилРегистрации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="619e5721-4f59-46dc-9828-ad0343f364ef">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="d6803654-ccb9-40c2-839c-21fbef87abe4">
+    <name>КомандаОткрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила регистрации</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

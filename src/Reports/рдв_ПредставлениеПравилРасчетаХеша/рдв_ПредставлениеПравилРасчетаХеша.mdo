@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df1a28c3-7d43-47db-9b7a-f8d530c42380">
+  <producedTypes>
+    <objectType typeId="3ae38aa9-3212-4689-941c-873df2fc0c1e" valueTypeId="f30965d9-9323-47c2-9208-173c7bfebcd6"/>
+    <managerType typeId="f9fb1652-a2a5-4b39-849f-8e0798e6caad" valueTypeId="9495aaaa-8026-427c-8b93-65908c1781bf"/>
+  </producedTypes>
+  <name>рдв_ПредставлениеПравилРасчетаХеша</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представление правил расчета хеша</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рдв_ПредставлениеПравилРасчетаХеша.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="af446098-977c-4f68-935b-8db6df091abd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="b0140c17-4d59-453a-8464-3769aea3eabc">
+    <name>КомандаОткрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила расчета хеша</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

@@ -611,7 +611,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
-        <source>ОтборНабораЗаписейСтрокаПоиска</source>
+        <source>ОтборНабораЗаписей</source>
         <extInfo xsi:type="form:SearchStringAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -650,7 +650,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>ViewStatusAddition</type>
-        <source>ОтборНабораЗаписейСостояниеПросмотра</source>
+        <source>ОтборНабораЗаписей</source>
         <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>
@@ -689,7 +689,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>SearchControlAddition</type>
-        <source>ОтборНабораЗаписейУправлениеПоиском</source>
+        <source>ОтборНабораЗаписей</source>
         <extInfo xsi:type="form:SearchControlAdditionExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
         </extInfo>

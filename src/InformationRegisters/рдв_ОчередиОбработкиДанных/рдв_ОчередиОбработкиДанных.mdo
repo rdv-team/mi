@@ -73,9 +73,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>7de42a12-f89e-4143-8322-317d9a72ccee.eca5f29f-180f-4607-8727-ddd84afd0353</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
   </resources>
   <resources uuid="81c50599-47b7-4a3c-b4cb-b628a466193d">
     <name>ХранилищеПараметров</name>

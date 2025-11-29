@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="524b571e-7ab7-44a2-aad9-031466b0ff52">
-  <name>рдв_КонтролироватьЦелостностьДанных</name>
+  <name>рдв_ФормироватьХешОбъектов</name>
   <synonym>
     <key>ru</key>
-    <value>Функциональная опция</value>
+    <value>Формировтаь хеши объкетов (РДВ)</value>
   </synonym>
   <location>Constant.рдв_ФормироватьХешОбъектов</location>
   <privilegedGetMode>true</privilegedGetMode>

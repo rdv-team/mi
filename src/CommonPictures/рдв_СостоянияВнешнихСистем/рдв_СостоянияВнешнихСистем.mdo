@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9e90791-77ab-45fc-8017-d98e07153f5d">
+  <name>рдв_СостоянияВнешнихСистем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния внешних систем (РДВ)</value>
+  </synonym>
+</mdclass:CommonPicture>

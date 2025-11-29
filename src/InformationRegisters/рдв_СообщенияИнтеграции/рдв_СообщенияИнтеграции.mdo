@@ -290,6 +290,7 @@
       <value>Сообщения</value>
     </synonym>
     <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:InformationRegister>

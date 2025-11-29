@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90d27055-fbc4-48b6-b5e7-4dc52ec45780">
+  <producedTypes>
+    <objectType typeId="2f30eaad-408a-4503-a014-040690129c09" valueTypeId="fed10d43-c27c-4449-80cd-612c553e1b09"/>
+    <managerType typeId="3d9adfd6-968e-45db-9f47-8eb4d1b37a5e" valueTypeId="404552be-3a3e-4327-b3e3-d85b19d8a74a"/>
+  </producedTypes>
+  <name>рдв_ПредставлениеПравилКонвертации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Представление правил конвертации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.рдв_ПредставлениеПравилКонвертации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="d94bf221-70bf-4ba0-992a-7de76afcaa36">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="fb9572e7-40c0-489d-9b4a-a2baf0b852d6">
+    <name>КомандаОткрыть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

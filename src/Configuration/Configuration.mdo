@@ -41,6 +41,8 @@
   <subsystems>Subsystem.рдв_АдминистрированиеИнтеграции</subsystems>
   <subsystems>Subsystem.рдв_Подсистемы</subsystems>
   <commonPictures>CommonPicture.рдв_НастроитьИнтеграциюАвтоматически</commonPictures>
+  <commonPictures>CommonPicture.рдв_СостоянияВнешнихСистем</commonPictures>
+  <commonPictures>CommonPicture.рдв_ДлительнаяОперация48</commonPictures>
   <roles>Role.рдв_ДобавлениеИзменениеХешиОбъектов</roles>
   <roles>Role.рдв_ЧтениеХешиОбъектов</roles>
   <commonTemplates>CommonTemplate.рдв_КомпонентаПауза</commonTemplates>
@@ -114,7 +116,7 @@
   <scheduledJobs>ScheduledJob.рдв_ОтправкаСообщенийДиагностики</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ФормированиеИсходящихСообщений</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
-  <functionalOptions>FunctionalOption.рдв_КонтролироватьЦелостностьДанных</functionalOptions>
+  <functionalOptions>FunctionalOption.рдв_ФормироватьХешОбъектов</functionalOptions>
   <definedTypes>DefinedType.рдв_вм_ОбъектОчереди</definedTypes>
   <definedTypes>DefinedType.рдв_ХешируемыйОбъектОбъект</definedTypes>
   <definedTypes>DefinedType.рдв_ХешТип</definedTypes>
@@ -146,9 +148,13 @@
   <enums>Enum.рдв_СтатусыОбработкиСообщений</enums>
   <reports>Report.рдв_СостояниеОчередейОбработкиДанных</reports>
   <reports>Report.рдв_СверкаПолнотыТочностиДанных</reports>
+  <reports>Report.рдв_ПредставлениеПравилКонвертации</reports>
+  <reports>Report.рдв_ПредставлениеПравилРегистрации</reports>
+  <reports>Report.рдв_ПредставлениеПравилРасчетаХеша</reports>
   <dataProcessors>DataProcessor.рдв_КомпонентаRabbitMQ</dataProcessors>
   <dataProcessors>DataProcessor.рдв_ОбслуживаниеИнтеграции</dataProcessors>
   <dataProcessors>DataProcessor.рдв_КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.рдв_АРМИнтеграции</dataProcessors>
   <informationRegisters>InformationRegister.рдв_ЖурналОчередейОбработкиДанных</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ОчередиОбработкиДанных</informationRegisters>
   <informationRegisters>InformationRegister.рдв_ОшибкиИнтеграции</informationRegisters>

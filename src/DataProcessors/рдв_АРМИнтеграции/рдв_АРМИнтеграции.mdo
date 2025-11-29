@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d6b7e19-c445-4f8e-b098-1f56391cf53b">
+  <producedTypes>
+    <objectType typeId="b3d591d5-f178-4431-8864-7981dc23dbe2" valueTypeId="72c950b9-b7a2-45b9-a8b8-4d01321d1a2a"/>
+    <managerType typeId="0b8d4d49-9aa4-4c9a-ac04-6bfdded30a91" valueTypeId="135223b3-81af-4ffc-8e74-a9c203c97ed4"/>
+  </producedTypes>
+  <name>рдв_АРМИнтеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ интеграции</value>
+  </synonym>
+  <defaultForm>DataProcessor.рдв_АРМИнтеграции.Form.Форма</defaultForm>
+  <forms uuid="c1263674-4905-4d1a-8da5-076aadc367fd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d0e63067-35fc-4d95-8413-a48d0f076f78">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d78d3a5f-d410-4dbf-8c6e-5d19dda2edb1">
+    <name>МакетПравилаКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет правила конвертации</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="791424a7-f3b5-4cad-b7eb-12e1db656722">
+    <name>АРМИнтеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>АРМ интеграции</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

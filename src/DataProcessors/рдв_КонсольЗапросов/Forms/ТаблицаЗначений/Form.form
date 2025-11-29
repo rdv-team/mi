@@ -187,7 +187,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>НастройкиТаблицыЗначенийСтрокаПоиска</source>
+      <source>НастройкиТаблицыЗначений</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -226,7 +226,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>НастройкиТаблицыЗначенийСостояниеПросмотра</source>
+      <source>НастройкиТаблицыЗначений</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -265,7 +265,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>НастройкиТаблицыЗначенийУправлениеПоиском</source>
+      <source>НастройкиТаблицыЗначений</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -378,7 +378,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ТаблицаЗначенийПараметрСтрокаПоиска</source>
+      <source>ТаблицаЗначенийПараметр</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -417,7 +417,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ТаблицаЗначенийПараметрСостояниеПросмотра</source>
+      <source>ТаблицаЗначенийПараметр</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -456,7 +456,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ТаблицаЗначенийПараметрУправлениеПоиском</source>
+      <source>ТаблицаЗначенийПараметр</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>

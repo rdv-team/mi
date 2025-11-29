@@ -313,7 +313,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ЗапросыСтрокаПоиска</source>
+      <source>Запросы</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -352,7 +352,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ЗапросыСостояниеПросмотра</source>
+      <source>Запросы</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -391,7 +391,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ЗапросыУправлениеПоиском</source>
+      <source>Запросы</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -837,6 +837,11 @@
     <main>true</main>
     <additionalColumns>
       <tablePath xsi:type="form:DataPath">
+        <segments>Объект.Запросы</segments>
+      </tablePath>
+    </additionalColumns>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
         <segments>Объект.Параметры</segments>
       </tablePath>
       <columns>
@@ -886,11 +891,6 @@
           <common>true</common>
         </edit>
       </columns>
-    </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.Запросы</segments>
-      </tablePath>
     </additionalColumns>
   </attributes>
   <attributes>

@@ -9,10 +9,10 @@
     <value>Предопределенные данные объект</value>
   </synonym>
   <type>
+    <types>CatalogObject.рдв_ВидыСообщенийИнтеграции</types>
     <types>CatalogObject.рдв_ВнешниеСистемы</types>
+    <types>CatalogObject.рдв_ИнформационныеБазы</types>
     <types>CatalogObject.рдв_ВидыХешей</types>
     <types>ChartOfCharacteristicTypesObject.рдв_НастройкиПрограммы</types>
-    <types>CatalogObject.рдв_ВидыСообщенийИнтеграции</types>
-    <types>CatalogObject.рдв_ИнформационныеБазы</types>
   </type>
 </mdclass:DefinedType>

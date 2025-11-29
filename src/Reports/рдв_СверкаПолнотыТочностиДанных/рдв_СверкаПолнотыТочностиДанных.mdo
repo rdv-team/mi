@@ -26,6 +26,7 @@
       <value>Сверка полноты точности данных</value>
     </synonym>
     <group>ActionsPanelReports</group>
+    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:Report>
