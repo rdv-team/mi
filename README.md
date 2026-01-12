@@ -1,3 +1,4 @@
+[![mi](https://raw.githubusercontent.com/rdv-team/mi/refs/heads/main/doc/images/RDV%20MI%20(5).png)](https://rdv-it.ru/?utm_source=github&utm_medium=rdv-mi)
 
 # RDV-MI: гибкий инструмент для быстрой разработки и масштабирования механизмов интеграции для платформы 1С: Предприятие
 
