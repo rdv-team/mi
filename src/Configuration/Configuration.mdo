@@ -43,6 +43,7 @@
   <commonPictures>CommonPicture.рдв_НастроитьИнтеграциюАвтоматически</commonPictures>
   <commonPictures>CommonPicture.рдв_СостоянияВнешнихСистем</commonPictures>
   <commonPictures>CommonPicture.рдв_ДлительнаяОперация48</commonPictures>
+  <commonPictures>CommonPicture.рдв_Логотип</commonPictures>
   <roles>Role.рдв_ДобавлениеИзменениеХешиОбъектов</roles>
   <roles>Role.рдв_ЧтениеХешиОбъектов</roles>
   <commonTemplates>CommonTemplate.рдв_КомпонентаПауза</commonTemplates>

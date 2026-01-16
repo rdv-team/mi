@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.рдв_НастроитьИнтеграциюАвтоматически</picture>
+    <picture>CommonPicture.рдв_Логотип</picture>
   </picture>
   <subsystems>Настройки</subsystems>
   <subsystems>ОчередиОбработкиДанных</subsystems>
