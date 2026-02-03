@@ -9,6 +9,8 @@
 [![Telegramm](https://img.shields.io/badge/telegram-chat-green.svg)](https://t.me/rdv_mi)
 [![OpenYellow](https://openyellow.openintegrations.dev/data/badges/1013752219.svg)](https://openyellow.org/grid?filter=top&repo=1013752219)
 
+[Скачать последнюю версию cfe можно из последнего релиза](https://github.com/rdv-team/mi/releases)
+
 ## Оглавление
 
 1. [Кратко](#кратко)
