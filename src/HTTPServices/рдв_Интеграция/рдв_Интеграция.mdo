@@ -33,4 +33,20 @@
       <handler>ExchangeGET</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="6ad791d8-d64a-497f-97c6-580caf21604c">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="d31c3618-596b-4f09-b4f9-da65a31c13d2">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>PingGET</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

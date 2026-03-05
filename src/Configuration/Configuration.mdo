@@ -115,6 +115,7 @@
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииОтправка</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ЗапускИнтеграцииПолучение</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ОтправкаСообщенийДиагностики</scheduledJobs>
+  <scheduledJobs>ScheduledJob.рдв_ОчисткаСлужебныхДанных</scheduledJobs>
   <scheduledJobs>ScheduledJob.рдв_ФормированиеИсходящихСообщений</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.рдв_ФормироватьХешОбъектов</functionalOptions>
@@ -126,6 +127,7 @@
   <definedTypes>DefinedType.рдв_ПредопределенныеДанные</definedTypes>
   <definedTypes>DefinedType.рдв_ПредопределенныеДанныеОбъект</definedTypes>
   <constants>Constant.рдв_ФормироватьХешОбъектов</constants>
+  <constants>Constant.рдв_КоличествоДнейХраненияДанных</constants>
   <commonForms>CommonForm.рдв_ФормаHTMLДокумента</commonForms>
   <catalogs>Catalog.рдв_ВидыСообщенийИнтеграции</catalogs>
   <catalogs>Catalog.рдв_ВнешниеСистемы</catalogs>

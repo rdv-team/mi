@@ -3,7 +3,7 @@
   <name>рдв_АдминистрированиеИнтеграции</name>
   <synonym>
     <key>ru</key>
-    <value>Интеграция (РДВ)</value>
+    <value>RDV MI</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>

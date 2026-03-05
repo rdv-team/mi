@@ -8,5 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>ChartOfCharacteristicTypes.рдв_НастройкиПрограммы</content>
+  <content>Constant.рдв_ФормироватьХешОбъектов</content>
+  <content>Constant.рдв_КоличествоДнейХраненияДанных</content>
   <parentSubsystem>Subsystem.рдв_АдминистрированиеИнтеграции</parentSubsystem>
 </mdclass:Subsystem>

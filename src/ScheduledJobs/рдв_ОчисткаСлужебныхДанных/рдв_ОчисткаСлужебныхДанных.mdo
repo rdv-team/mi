@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0da82b7e-34c1-4726-b062-98aad3754c2d">
+  <name>рдв_ОчисткаСлужебныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка служебных данных</value>
+  </synonym>
+  <methodName>CommonModule.рдв_Интеграция.РегламентОчисткиСлужебныхДанных</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>
