@@ -177,9 +177,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="e8d9a757-af8e-4200-b94e-122f5176e45b">
     <name>ДатаНачалаОбработкиUTC</name>
@@ -283,9 +281,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <dimensions uuid="79d0a09b-74e9-4ab6-9d3f-71b8c2ad9209">
     <name>ТипОчереди</name>
@@ -351,9 +347,7 @@
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="4131689d-8872-4f05-856e-f2a3f1fc7755">
