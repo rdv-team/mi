@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b477e93-af4c-4cfc-8b66-c1f946ebf991">
+  <name>рдв_ИнтеграцияFTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция FTP (РДВ)</value>
+  </synonym>
+  <comment>RDVMI-114</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -46,4 +46,12 @@
       <value>RabbitMQ</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="2b2966f7-3df2-4245-82f0-f9a9c74cffde">
+    <name>FTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>FTP</value>
+    </synonym>
+    <comment>RDVMI-114</comment>
+  </enumValues>
 </mdclass:Enum>

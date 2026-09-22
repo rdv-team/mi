@@ -99,6 +99,7 @@
   <commonModules>CommonModule.рдв_РегистрацияИзмененийДемо</commonModules>
   <commonModules>CommonModule.рдв_ОбработчикиСобытийДемо</commonModules>
   <commonModules>CommonModule.рдв_ФормированиеХешейОбъектовДемо</commonModules>
+  <commonModules>CommonModule.рдв_ИнтеграцияFTP</commonModules>
   <httpServices>HTTPService.рдв_Интеграция</httpServices>
   <eventSubscriptions>EventSubscription.рдв_СправочникиПриЗаписи</eventSubscriptions>
   <eventSubscriptions>EventSubscription.рдв_ДокументыПриЗаписи</eventSubscriptions>
@@ -138,17 +139,17 @@
   <catalogs>Catalog.рдв_ИнформационныеБазы</catalogs>
   <enums>Enum.рдв_ФорматыОбмена</enums>
   <enums>Enum.рдв_НаправленияСообщенийИнтеграции</enums>
-  <enums>Enum.рдв_ТипыОшибокИнтеграции</enums>
   <enums>Enum.рдв_Интеграции</enums>
   <enums>Enum.рдв_ТипыЗапросовИнтеграции</enums>
   <enums>Enum.рдв_ТипыВнешнихСистем</enums>
+  <enums>Enum.рдв_ТипыВыгружаемыхОбъектов</enums>
   <enums>Enum.рдв_СостоянияОчередейОбработкиДанных</enums>
   <enums>Enum.рдв_ВидыЗначенийНастроек</enums>
-  <enums>Enum.рдв_ТипыВыгружаемыхОбъектов</enums>
   <enums>Enum.рдв_СтатусыЗапросовИнтеграции</enums>
   <enums>Enum.рдв_СтатусыРегистрацииИзменений</enums>
   <enums>Enum.рдв_События</enums>
   <enums>Enum.рдв_СтатусыОбработкиСообщений</enums>
+  <enums>Enum.рдв_ТипыОшибокИнтеграции</enums>
   <reports>Report.рдв_СостояниеОчередейОбработкиДанных</reports>
   <reports>Report.рдв_СверкаПолнотыТочностиДанных</reports>
   <reports>Report.рдв_ПредставлениеПравилКонвертации</reports>
